@@ -1,0 +1,385 @@
+.navbar {
+  display: none;
+}
+
+.navbar2 {
+  background: linear-gradient(to bottom, #1A1A1C, transparent);
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  transition: top 0.3s ease-in-out;
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  display: flex;
+  float: none;
+  flex-flow: column;
+  height: auto;
+  min-height: 60px;
+  background: inherit;
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.dropbtn {
+  text-decoration: none;
+  background: inherit;
+  display: block;
+  color: #1A1A1C;
+  font-size: 18px;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  align-self: center;
+  justify-self: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background: none;
+  width: 200px;
+  top: 0;
+  height: auto;
+  align-self: center;
+  text-align: center;
+  z-index: 10;
+  padding-top: 0;
+  margin-top: 0;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.dropdown-closed {
+  display: none;
+}
+
+.dropdown-open {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  background: none;
+  width: auto;
+  top: 0;
+  left: 0;
+  height: auto;
+  text-align: center;
+  z-index: 10;
+  overflow: visible;
+}
+
+.dropdown-link {
+  color: #1A1A1C;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  height: auto;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  background: #f5f7f6;
+  z-index: 100;
+  margin-top: 0;
+  border-top: 1px solid #66C0ED;
+  font-weight: 500;
+}
+
+.dropdown-link:nth-last-child(1) {
+  border-bottom: 1px solid #66C0ED;
+}
+
+.dropdown:hover .dropbtn {
+  background: #e8e8e8;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  cursor: pointer;
+  background: #f5f7f6;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  align-content: center;
+  align-items: center;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.closed {
+  display: none;
+  position: relative;
+}
+
+.dropdown-closed {
+  display: none;
+  position: relative;
+}
+
+.dropdown-open {
+  list-style-type: none;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  padding: 0;
+  background: #f5f7f6;
+  height: 100%;
+}
+
+.open {
+  list-style-type: none;
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  align-content: center;
+  align-items: center;
+  width: 200px;
+  left: 0;
+  top: 0px;
+  margin: 0;
+  padding: 0;
+  background: #f5f7f6;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.nav-link {
+  display: flex;
+  height: 60px;
+  background: inherit;
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #1A1A1C;
+  font-size: 18px;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  cursor: pointer;
+  color: #1A1A1C;
+  font-size: 24px;
+}
+
+.toggle-closed {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  cursor: pointer;
+  color: #f5f7f6;
+  font-size: 25px;
+}
+
+.toggle-open {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  cursor: pointer;
+  color: #f5f7f6;
+  font-size: 25px;
+}
+
+.logo-holder2 {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  right: 20px;
+  color: #f5f7f6;
+  top: 5px;
+  text-decoration: none;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.nav-header {
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  line-height: 35px;
+}
+
+.nav-x {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  position: relative;
+  cursor: pointer;
+  color: #1A1A1C;
+  z-index: 105;
+  font-weight: 700;
+}
+
+.dropdown:hover {
+  background: #e8e8e8;
+}
+
+.nav-link:hover {
+  background: #e8e8e8;
+  cursor: pointer;
+}
+
+.nav-link:hover .nav-links {
+  color: #1A1A1C;
+}
+
+.dropdown-link:hover {
+  background: #e8e8e8;
+}
+
+@media screen and (min-width: 1000px) {
+  .navbar2 {
+    display: none;
+  }
+
+  .nav-x {
+    display: none;
+  }
+
+  .navbar {
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    min-height: 60px;
+    height: auto;
+    transition: top 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #1A1A1C, #3a3a3a, transparent);
+  }
+
+  .main-nav {
+    display: flex;
+    width: 100vw;
+    flex-flow: row;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+    z-index: 100;
+  }
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin: auto 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: #f5f7f6;
+    font-size: 18px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .dropdown {
+    flex-flow: column;
+  }
+
+  .dropbtn {
+    border: none;
+    outline: none;
+    background: none;
+    color: #f5f7f6;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    padding-top: 60px;
+    z-index: 10;
+    background: none;
+  }
+
+  .dropdown-link {
+    float: none;
+    color: #1A1A1C;
+    position: relative;
+    text-decoration: none;
+    background: #f5f7f6;
+    height: auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .dropdown:hover {
+    cursor: pointer;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    flex-flow: column;
+    cursor: pointer;
+  }
+
+  .dropdown:hover .dropbtn {
+    color: #1A1A1C;
+    background: #f2f3ee;
+    z-index: 101;
+  }
+}
+
+/*# sourceMappingURL=nav.css.map */

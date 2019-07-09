@@ -1,0 +1,279 @@
+#devPage {
+  background: #66C0ED;
+}
+
+#devTop {
+  background-image: url("../../images/devBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+#devUnderline {
+  height: 3px;
+  width: 250px;
+  background: #f2f3ee;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#devMid::before {
+  display: block;
+  content: "";
+  width: 200%;
+  height: 100px;
+  background: #66C0ED;
+  position: absolute;
+  right: -10px;
+  top: 0px;
+  transform: rotate(-2.5deg);
+  -webkit-transform: rotate(-2.5deg);
+  -moz-transform: rotate(-2.5deg);
+  z-index: 0;
+}
+
+#devMidContainer {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-items: center;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.devIconContainer {
+  justify-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 0;
+  line-height: 0;
+  z-index: 10;
+  padding: 25px;
+  width: 200px;
+}
+
+#devMid {
+  padding: 60px 0;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  width: 100%;
+  width: auto;
+  justify-content: space-evenly;
+  align-content: center;
+  justify-self: center;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: #66C0ED;
+}
+
+.web-icon-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.web-icon-holder {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.web-icon {
+  width: 75px;
+  height: 75px;
+  align-self: center;
+  justify-self: center;
+}
+
+.web-icon-text {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  color: #f5f7f6;
+  text-align: center;
+}
+
+.devPar {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+  color: #f5f7f6;
+  width: 90vw;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 20px auto;
+}
+
+#devBottom {
+  background: #595959;
+  padding-bottom: 50px;
+}
+
+.devSubHeader {
+  color: #f5f7f6;
+  font-family: "Lora", serif;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 50px;
+  z-index: 10;
+}
+
+#devSiteHolder {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.siteContainer {
+  margin: 20px;
+  display: inline-block;
+  background-size: 400px 300px;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 400px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.siteContainer:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-image: none;
+  height: 300px;
+  width: 400px;
+  cursor: pointer;
+}
+
+.details {
+  opacity: 0;
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.details:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  background: #e7e7e7;
+  cursor: pointer;
+}
+
+.siteLink {
+  text-decoration: none;
+  color: #111419;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+.siteHeader {
+  font-size: 30px;
+  text-align: center;
+}
+
+.siteLink a {
+  text-decoration: none;
+  color: #66C0ED;
+  text-align: center;
+  font-size: 22px;
+}
+
+.siteButton {
+  text-decoration: none;
+  color: #66C0ED;
+  text-align: center;
+  border: 1.5px solid #66C0ED;
+  width: 125px;
+  height: 30px;
+  margin: 30px auto 0 auto;
+  background-color: #e7e7e7;
+  justify-self: center;
+  align-self: center;
+}
+
+.siteButton:hover {
+  cursor: pointer;
+  color: #f5f7f6;
+  background-color: #66C0ED;
+}
+
+#localGrenada {
+  background: url("../../images/local-grenada-screenshot.png");
+  background-size: cover;
+}
+
+#local-huntsville {
+  background: url("../../images/mlhsv-screenshot.png");
+  background-size: cover;
+}
+
+#ndori {
+  background: url("../../images/ndori.png");
+  background-size: cover;
+}
+
+#bryant-farms {
+  background: url("../../images/bryant-farms-beef.png");
+  background-size: cover;
+}
+
+@media (max-width: 875px) {
+  #devSiteHolder {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+@media (max-width: 450px) {
+  .siteContainer {
+    background-size: 300px 225px;
+    height: 225px;
+    width: 300px;
+  }
+
+  .siteContainer:hover {
+    height: 225px;
+    width: 300px;
+  }
+
+  .details {
+    height: 225px;
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=dev.css.map */

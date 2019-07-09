@@ -1,0 +1,272 @@
+#videoPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  background: #e8e8e8;
+}
+
+#vidTop {
+  background-image: url("../../images/grenadaAirBlackWhite.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.productionHeader {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 2.25em;
+  color: #f2f3ee;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  z-index: 10;
+}
+
+.vidMainPar {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.75em;
+  color: #f2f3ee;
+  font-weight: 300;
+}
+
+#vidProUnderline {
+  width: 300px;
+  height: 3px;
+  background: #f2f3ee;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 20px;
+}
+
+#vidMid::before {
+  display: block;
+  content: "";
+  width: 200%;
+  height: 100px;
+  background: #E8E8E8;
+  position: absolute;
+  right: -10px;
+  top: 0px;
+  transform: rotate(-2.5deg);
+  -webkit-transform: rotate(-2.5deg);
+  -moz-transform: rotate(-2.5deg);
+  z-index: 0;
+}
+
+#vidMid {
+  height: auto;
+  min-height: 50vh;
+  padding: 0 0 50px 0;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  justify-content: space-evenly;
+  justify-items: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+#vidBottom {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  background: #595959;
+  padding: 50px 0;
+}
+
+.vidSubHeader {
+  color: #f2f3ee;
+  font-size: 2em;
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+#proLogoContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: space-evenly;
+  justify-items: space-evenly;
+  align-content: flex-start;
+  align-items: flex-start;
+  z-index: 10;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logoContainer {
+  max-width: 500px;
+  width: auto;
+  max-height: 500px;
+  height: auto;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  padding: 0 50px 50px 50px;
+}
+
+.logoHolder {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  line-height: 35px;
+  z-index: 10;
+}
+
+.proLogoHolder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #66C0ED;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-self: flex-start;
+  align-self: center;
+  background: #66C0ED;
+  z-index: 10;
+}
+
+.proLogo {
+  opacity: 1;
+  justify-self: center;
+  align-self: center;
+  z-index: 10;
+}
+
+#droneBlue {
+  height: 60px;
+  width: 60px;
+  z-index: 10;
+}
+
+#designBlue {
+  width: 60px;
+  height: 60px;
+  z-index: 10;
+}
+
+#cameraBlue {
+  width: 60px;
+  height: 60px;
+  z-index: 10;
+}
+
+#livePro {
+  width: 60px;
+  height: 60px;
+  z-index: 10;
+}
+
+#scriptPro {
+  width: 60px;
+  height: 60px;
+}
+
+#voicePro {
+  width: 60px;
+  height: 60px;
+}
+
+#creativePro {
+  width: 60px;
+  height: 60px;
+}
+
+#designPro {
+  width: 60px;
+  height: 60px;
+}
+
+#spotlightPro {
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 1000px) {
+  .vidMainPar {
+    width: 90%;
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 800px) {
+  .vidMainPar {
+    font-size: 1.25em;
+  }
+
+  .vidPar {
+    font-size: 1.5em;
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  #proLogoContainer {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 650px) {
+  .productionMainPar {
+    font-size: 1.25em;
+  }
+
+  .vidPar {
+    font-size: 1.25em;
+  }
+}
+@media (max-width: 600px) {
+  .logoContainer {
+    padding: 0 20px 20px 20px;
+  }
+}
+@media (max-width: 500px) {
+  .vidSubHeader {
+    font-size: 1.5em;
+  }
+
+  .vidMainPar {
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 400px) {
+  .vidMainPar {
+    font-size: 0.9em;
+    width: 100%;
+  }
+
+  .vidPar {
+    font-size: 1.1em;
+  }
+
+  #proLogoContainer {
+    grid-template-columns: auto;
+  }
+}
+
+/*# sourceMappingURL=video-production.css.map */

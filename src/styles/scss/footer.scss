@@ -1,0 +1,33 @@
+@import 'assets';
+
+#footerContainer {
+    display: flex;
+    flex-flow: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background: $black;
+    height: 80px;
+    width: 100vw;
+    bottom: 0;
+    position: relative;
+}
+
+#facebookFooter {
+    height: 25px;
+    width: 25px;
+    margin: 0 25px;
+    position: relative;
+}
+
+#mailFooter {
+    height: 25px;
+    width: 25px;
+    margin: 0 25px; 
+    position: relative;
+}

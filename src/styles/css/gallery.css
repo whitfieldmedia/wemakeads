@@ -1,0 +1,47 @@
+#gallery-page {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  overflow-x: hidden;
+  background: #fff;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.galleryHeader {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 40px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: #474747;
+}
+
+.galleryNote {
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #666666;
+}
+
+#galleryGrid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+.galleryVid {
+  max-height: 200px;
+  max-width: 250px;
+  height: auto;
+  width: auto;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=gallery.css.map */

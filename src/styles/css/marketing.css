@@ -1,0 +1,95 @@
+#adPage {
+  width: 100vw;
+  height: 100%;
+}
+
+#adTop {
+  background-image: url("../../images/mainBackground2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  position: relative;
+  width: 100vw;
+}
+
+.underline {
+  width: 400px;
+  height: 3px;
+  margin-top: 3px;
+  background: #f2f3ee;
+}
+
+#marketingHolder {
+  margin-top: 100px;
+}
+
+#adSecondContainer::before {
+  display: block;
+  content: "";
+  width: 200%;
+  height: 100px;
+  background: #E8E8E8;
+  position: absolute;
+  right: -10px;
+  top: 0px;
+  transform: rotate(-2.5deg);
+  -webkit-transform: rotate(-2.5deg);
+  -moz-transform: rotate(-2.5deg);
+  z-index: 0;
+}
+
+#adSecondContainer {
+  background: #E8E8E8;
+  width: 100%;
+  min-height: 80vh;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  justify-items: space-evenly;
+  align-content: space-around;
+  align-items: space-around;
+  z-index: 10;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+  .underline {
+    width: 150px;
+  }
+}
+.adLogoContainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  padding: 0 50px 50px 50px;
+  width: auto;
+  max-width: 400px;
+}
+
+.adBottomContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  justify-items: space-evenly;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.adBottomImg {
+  width: auto;
+  min-width: 250px;
+  max-width: 500px;
+  min-height: 50vh;
+  max-height: 100vh;
+  height: auto;
+}
+
+/*# sourceMappingURL=marketing.css.map */

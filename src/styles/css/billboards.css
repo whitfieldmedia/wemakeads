@@ -1,0 +1,59 @@
+#billboardContainer {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #595959;
+  min-height: 80vh;
+}
+
+#billboardUnderline {
+  height: 2px;
+  width: 100px;
+  background: #f2f3ee;
+  align-self: center;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contactLink {
+  color: #f2f3ee;
+  font-size: 1.05em;
+  font-weight: 400;
+  padding-left: 10px;
+  z-index: 10;
+}
+
+#contactLink:hover {
+  color: #5495ff;
+}
+
+#designBillboards {
+  width: 90%;
+  margin: 30px auto;
+  z-index: 10;
+}
+
+.designCarousel {
+  width: 100%;
+  height: auto;
+  z-index: 10;
+}
+
+#billboard-carousel {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1000px;
+  min-width: 300px;
+  height: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  #designBillboards {
+    width: 98%;
+  }
+}
+
+/*# sourceMappingURL=billboards.css.map */

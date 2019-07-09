@@ -1,0 +1,167 @@
+#blog-page {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  overflow-x: hidden;
+}
+
+.blogPostImg {
+  width: 150px;
+  height: 100px;
+  padding-top: 10px;
+}
+
+#smile {
+  width: 100px;
+  height: 100px;
+}
+
+#smile1 {
+  height: 100px;
+  width: 200px;
+}
+
+#news {
+  height: 100px;
+  width: 180px;
+}
+
+#blogHolder {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  margin: 30px auto;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+  justify-items: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.blogPost {
+  height: 550px;
+  width: 330px;
+  box-shadow: 0 0 3px 0.5px #666666;
+  display: block;
+  position: relative;
+  margin: 20px 10px 20px 10px;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.blogImgRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.blogTitle {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 0;
+  color: #474747;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.blogText {
+  width: 90%;
+  margin: 20px auto 40px auto;
+  color: #666666;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.dateAndName {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  justify-items: space-between;
+  width: 350px;
+}
+
+.headAndName {
+  display: flex;
+  flex-flow: row;
+}
+
+.blogHead {
+  height: 15px;
+  width: 15px;
+  margin: 21px 0 5px 0;
+}
+
+.postName {
+  margin-left: 3px;
+  color: #999999;
+}
+
+.postDate {
+  margin-right: 15px;
+  color: #999999;
+}
+
+#blogModine {
+  height: 90px;
+}
+
+.blogVid {
+  height: 150px;
+}
+
+#charlestonTitle {
+  margin-bottom: 5px;
+  padding-bottom: 0;
+}
+
+#nsmcTitle {
+  margin-bottom: 5px;
+}
+
+#nsmcBlog {
+  height: 100px;
+  width: 200px;
+}
+
+#blogDkLogo {
+  height: 60px;
+}
+
+#blogAdvancedLogo {
+  height: 25px;
+}
+
+#blogResoluteLogo {
+  height: 60px;
+}
+
+.blogImgRow2 {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+
+#nsmcPar {
+  font-size: 17px;
+}
+
+#nsmcBlogPar {
+  font-size: 17px;
+}
+
+#blogCharlestonPar {
+  font-size: 17px;
+}
+
+/*# sourceMappingURL=blog.css.map */

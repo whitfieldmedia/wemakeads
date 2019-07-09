@@ -1,0 +1,362 @@
+#hotelPage {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  overflow-x: hidden;
+  background: #fff;
+}
+
+.hotelHeader {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: #474747;
+  z-index: 10;
+}
+
+#huntsville {
+  position: relative;
+  width: 98%;
+  height: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 500px;
+  height: auto;
+  padding: 0 0 50px 0;
+}
+
+#huntRow {
+  display: flex;
+  flex-flow: column;
+}
+
+#huntHomewood {
+  width: 700px;
+  height: 400px;
+  justify-self: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+#huntRowSmall {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+#otbx {
+  width: 325px;
+  height: 200px;
+  justify-self: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#btr {
+  width: 325px;
+  height: 200px;
+  justify-self: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#grenada {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 500px;
+  height: auto;
+  border-radius: 15px;
+  background: #e8e8e8;
+  padding: 50px 0 100px 0;
+}
+
+#grenada::before {
+  display: block;
+  content: "";
+  width: 200%;
+  height: 100px;
+  background: #e8e8e8;
+  position: absolute;
+  right: -10px;
+  top: 0px;
+  transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  z-index: 1;
+}
+
+#grenBigRow {
+  display: flex;
+  flex-flow: column;
+}
+
+#grenHamp {
+  width: 700px;
+  height: 400px;
+  justify-self: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+#grenSmallRow {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+#tz {
+  height: 150px;
+  width: 225px;
+  justify-self: flex-end;
+  margin-right: 5px;
+}
+
+#sports {
+  height: 150px;
+  width: 225px;
+  justify-self: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#spencer {
+  height: 150px;
+  width: 225px;
+  justify-self: flex-start;
+  margin-left: 5px;
+}
+
+#hernando {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background: #595959;
+  padding: 50px 0 20px 0;
+}
+
+#hernando::before {
+  display: block;
+  content: "";
+  width: 200%;
+  height: 100px;
+  background: #595959;
+  position: absolute;
+  left: -10px;
+  top: 0px;
+  transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  z-index: 1;
+}
+
+#hernHeader {
+  color: #f2f3ee;
+}
+
+#hernRow1 {
+  display: flex;
+  flex-flow: column;
+}
+
+#hernHamp {
+  width: 700px;
+  height: 400px;
+  justify-self: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+#hernSmallRow {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+#hernCibo {
+  width: 325px;
+  height: 200px;
+  justify-self: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#hernAC {
+  width: 325px;
+  height: 200px;
+  justify-self: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 725px) {
+  #grenHamp {
+    width: 500px;
+    height: 300px;
+  }
+
+  #tz {
+    height: auto;
+    width: 200px;
+  }
+
+  #sports {
+    height: auto;
+    width: 200px;
+  }
+
+  #spencer {
+    height: auto;
+    width: 200px;
+  }
+
+  #hernHamp {
+    height: 300px;
+    width: 500px;
+  }
+
+  #hernCibo {
+    width: 240px;
+    height: 150px;
+  }
+
+  #hernAC {
+    width: 240px;
+    height: 150px;
+  }
+
+  #huntHomewood {
+    height: 300px;
+    width: 500px;
+  }
+
+  #otbx {
+    width: 230px;
+    height: 150px;
+  }
+
+  #btr {
+    width: 230px;
+    height: 150px;
+  }
+}
+@media (max-width: 525px) {
+  #grenHamp {
+    width: 400px;
+    height: 250px;
+  }
+
+  #hernHamp {
+    width: 400px;
+    height: 250px;
+  }
+
+  #hernCibo {
+    width: 200px;
+  }
+
+  #hernAC {
+    width: 200px;
+  }
+
+  #huntHomewood {
+    height: 250px;
+    width: 400px;
+  }
+
+  #otbx {
+    width: 200px;
+  }
+
+  #btr {
+    width: 200px;
+  }
+}
+@media (max-width: 415px) {
+  #grenHamp {
+    width: 300px;
+    height: 200px;
+  }
+
+  #sports {
+    margin: 0 0 10px 0;
+  }
+
+  #hernHamp {
+    width: 300px;
+    height: 200px;
+  }
+
+  #hernCibo {
+    width: 200px;
+    margin-right: 2.5px;
+  }
+
+  #hernAC {
+    width: 200px;
+    margin-left: 2.5px;
+  }
+
+  #huntHomewood {
+    width: 300px;
+    height: 200px;
+  }
+
+  #otbx {
+    width: 200px;
+    margin-right: 2.5px;
+  }
+
+  #btr {
+    width: 200px;
+    margin-left: 2.5px;
+  }
+
+  #tz {
+    height: auto;
+    width: 200px;
+  }
+
+  #sports {
+    width: 200px;
+    height: auto;
+  }
+
+  #spencer {
+    width: 200px;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=hotels.css.map */

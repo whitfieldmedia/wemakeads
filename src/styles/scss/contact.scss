@@ -1,0 +1,179 @@
+@import 'assets';
+
+#contact-page {
+    padding: 80px 0 50px 0;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 95%;
+    overflow-x: hidden;
+}
+.contactHeader {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    color: #474747;
+    font-weight: 400;
+}
+
+.contactText {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666666;
+    font-weight: 200;
+}
+
+#form {
+    width: 45%;
+    margin: 80px auto 50px auto;
+    font-size: 18px;
+    padding: 3px;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.column {
+    display: flex; 
+    flex-direction: column;
+    width: 90%;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-label {
+    text-align: justify;
+    margin-left: 5.5%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #474747;
+}
+
+.input {
+    width: 90%;
+    height: 35px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    margin: 10px auto;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+#messageInput {
+    height: 80px;
+}
+
+.message-label {
+    margin-left: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #474747;
+}
+
+#form-button {
+    margin: 15px auto;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+}
+.buttonContainer {
+    width: 100%;
+    display: flex;
+}
+
+#form-button:hover {
+    color: #5495ff;
+}
+#formMapContainer {
+    display: flex;
+    flex-flow: row wrap;
+}
+.right {
+    margin-top: 0;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.number {
+    text-align: center;
+    font-size: 22px;
+    color: #474747;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.number:hover {
+    color: #5495ff;
+}
+.address {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.addressLink {
+    text-decoration: none;
+    color: #474747;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.addressLink:hover {
+    color: #5495ff;
+}
+#map {
+    margin-top: 15px;
+}
+
+@media (max-width: 1000px) {
+    #formMapContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    #form {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .right {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #map {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .buttonContainer {
+        margin-bottom: 30px;
+    }
+}
+.mapImg {
+    height: 400px;
+    width: 550px;
+    justify-self: center;
+    align-self: center;
+}

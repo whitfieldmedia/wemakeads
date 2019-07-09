@@ -1,0 +1,476 @@
+@import 'assets';
+
+#productsPage {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100%;
+}
+
+.whatTop {
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+    min-height: 55vw;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+
+.whatIconHolder {
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    z-index: 10;
+}
+.whatIcon {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    z-index: 10;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.whatMainHeader {
+    text-align: center;
+    font-family: $serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: $white;
+    z-index: 5;
+    margin-bottom: 5px;
+    padding-top: 0;
+    margin-top: 0;
+    z-index: 10;
+}
+
+.whatMainPar {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    color: $white;
+    font-weight: 300;
+    z-index: 10;
+    font-family: $sans;
+}
+
+.whatSubHeader {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 2em;
+    line-height: 35px;
+    color: $light-grey;
+    font-weight: 400;
+    font-family: $serif;
+    text-align: center;
+    z-index: 10;
+}
+
+.whatPar {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    color: $light-grey;
+    font-weight: 300;
+    z-index: 10;
+    font-family: $sans;
+}
+
+.whatIconContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+    align-content: space-around;
+    align-items: space-around;
+}
+
+.whatLogoContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-content: center;
+    align-items: center;
+    padding: 0 50px 50px 50px;
+    width: 200px;
+}
+
+.whatLogoHolder {
+    position: relative;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid $blue;
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.whatLogo {
+    height: 60px;
+    width: 60px;
+    z-index: 10;
+    position: relative;
+}
+
+@media (max-width: 800px) {
+    .whatTop {
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .whatMainHeader {
+        font-size: 30px;
+    }
+    .whatMainPar {
+        font-size: 22px;
+        width: 90%;
+    }
+    .whatSubHeader {
+        font-size: 30px;
+    }
+    .whatPar {
+        font-size: 22px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .whatSubHeader {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    @media(max-height: 650px) {
+        .whatMainPar {
+            font-size: 21px;
+        }
+        .whatPar {
+            font-size: 21px;
+        }
+    }
+    @media(max-height: 600px) {
+        .whatMainPar {
+            font-size: 18px;
+        }
+        .whatPar {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 330px) {
+    .whatMainHeader {
+        width: 90%;
+    }
+    .whatPar {
+        width: 90%;
+    }
+
+}
+
+
+#graphicDesignPage {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background: #E8E8E8;
+}
+
+#designTop {
+    background-image: url('../../images/designBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+#graphicDesignUnderline {
+    margin-top: 5px;
+    height: 3px;
+    width: 200px;
+    background: #f2f3ee;
+}
+
+#designMid::before {
+    display: block;
+    content: '';
+    width: 200%;
+    height: 100px;
+    background: #E8E8E8;
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    transform: rotate(-2.5deg);
+    -webkit-transform: rotate(-2.5deg);
+    -moz-transform: rotate(-2.5deg); 
+    z-index: 0;
+}
+
+#designMid {
+    height: auto;
+    min-height: 80vh;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+
+#socialMedia {
+    background-image: url('../../images/socialMedia.png');
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+.designColumn:hover #socialMedia {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-image: none;
+}
+
+#beautPhoto {
+    background-image: url('../../images/beaut.png');
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+.designColumn:hover #beautPhoto {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-image: none;
+}
+
+#fliers {
+    background-image: url('../../images/flier2.png');
+    background-repeat: no-repeat;
+    background-size: 330px 300px;
+    background-position-x: -15px;
+}
+.designColumn:hover #fliers {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-image: none;
+}
+#mags {
+    background-image: url('../../images/magNewsDark.png');
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+.designColumn:hover #mags {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-image: none;
+}
+
+
+#designGridContainer {
+    background: #595959;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#designGrid {
+    display: flex;
+    position: relative;
+    flex-flow: row wrap;
+    max-width: 900px;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    z-index: 10;
+    padding-top: 30px;
+}
+
+.designColumn {
+    display: flex;
+    flex-flow: column;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 3px 0.5px #666666;
+    margin: 50px;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.designTitleHolder {
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+
+.designIconContainer {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid #67BFEC;
+    background: #67BFEC;
+    margin: 10px auto 0 auto;
+    padding: 0;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    line-height: 0;
+    z-index: 10;
+}
+.designIcon {
+    width: 60px;
+    height: 60px;
+}
+
+.designBottomBlock {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.designBackground {
+    opacity: 0;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.designText {
+    position: relative;
+    color: #666666;
+    margin: auto;
+    height: auto;
+    width: 80%;
+    font-size: 22px;
+    justify-self: center;
+    align-self: center;
+}
+.designSubH {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2.2em;
+    color: #f2f3ee;
+    text-shadow: 1px 1px #666666, -1px -1px #666666;
+    justify-self: center;
+    align-self: center;
+}
+
+.designBottomBlock:hover .designBackground {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    opacity: 1;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+    #designGrid {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .designColumn {
+        margin-bottom: 30px;
+    }
+    .designImg {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        display: block;
+    }
+    .designBottomBlock {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .designBackground {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .designText {
+        height: 300px;
+        width: 300px;
+        margin: auto 0 auto 30px;
+    }
+} 
