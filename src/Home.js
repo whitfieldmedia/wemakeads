@@ -1,153 +1,144 @@
 import React from 'react';
-import ac from './images/ACs2.png';
-import ark from './images/ark-la-tex2.png';
-import badboys from './images/badboys2.png';
-import bigMuddy from './images/bigMuddy2.png';
-import CharlestonsClinic2 from './images/CharlestonsClinic2.png';
-import csb from './images/clevelandStateBank2.png';
-import cookTractor from './images/Cook+Tractor2.png';
-import dh from './images/DH42.png';
-import eatFresh from './images/eatFresh.png';
-import fdf from './images/factoryDirectFurniture.png';
-import dental from './images/grenadaDental2.png';
-import hampton from './images/hampton.png'
-import hc from './images/holcombClinic2.png';
-import kirkAuto from './images/kirkAuto2.png';
-import ml from './images/magnolaLighting2.png';
+import ac from './images/acs.svg';
+import ark from './images/ark-la-tex.svg';
+import badboys from './images/grenada-bad-boys.svg';
+import bigMuddy from './images/big-muddy-logo.svg';
+import CharlestonsClinic2 from './images/charleston-clinic.png';
+import csb from './images/csblogo.png';
+import cookTractor from './images/cook-tractor.svg';
+import dh from './images/dh4.svg';
+import eatFresh from './images/buon-cibo-logo.svg';
+import fdf from './images/factory-direct-logo.png';
+import dental from './images/grenadaDentalLogo.jpg';
+import hampton from './images/hampton-inn-logo.svg'
+import hc from './images/holcomb-clinic-logo.svg';
+import kirkAuto from './images/kirk-auto-logo.svg';
+import ml from './images/magnolia-lighting-logo.svg';
 import modine from './images/modine.jpeg';
-import nsmc from './images/northSunflowerMedical2.png';
-import sayle from './images/sayle2.png';
+import nsmc from './images/nsunflower-logo.svg';
+import sayle from './images/sayle-logo.png';
 import spencer from './images/spencers2.png';
-import tgh from './images/thg2.png';
-import tree from './images/treeService2.png';
+import tgh from './images/tghlogo.png';
+import tree from './images/caldwell-logo.svg';
 import truckOutfitter from './images/truckOutfitters2.png';
-import wngn from './images/WeeNeeGeeNee2.png';
+import wngn from './images/weenee-logo.svg';
 import winonaTractor from './images/winonaTractor2.png';
-import xPlore from './images/xPlore2.png';
-import wml from './images/whitfieldMediaLogo.png';
-import InfiniteCarousel from 'react-leaf-carousel';
+import xPlore from './images/xPlore.svg';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import './styles/scss/home.scss';
 
 class Home extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0,0)
+    }
     render() {
         return (
             <div id="homePage">
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title> Whitfield Media | Grenada Ms </title>
+                    <link rel="canonical" href="https://www.wemakeads.com/"/>
+                    <meta name="description" content="Welcome to Whitfield Media. We are a advertising agency specializing in connecting brands with people. Let us help your business take flight!" />
+                </Helmet>
                 <div id="homeTop">
-                    <div id="logo">
-                        <img id="whitfieldLogo" class="homeLogo" src={wml} alt="Whitfield Media"/>
-                        <h1 class="header">We Make Ads</h1>
-                        <a href="tel:6628091975" id="number"> (662) 809-1975 </a>
+                    <div className="home-top-container">
+                        <h1 className="home-top-header"> We Make Ads. </h1>
+                        <h2 className="home-what-header"> Let us help your business take flight! </h2>
                     </div>
                 </div>
-            
+                <div className="home-what-header-wrapper">
+                </div>
                 <div id="homeWhat">
-                    <div class="homePro" id="vidProHome">
-                        <div id="vidBlueHolder" class="homeLogoHolder">
-                            <div id="homeProVidLogo"></div>
-                        </div>
-                        <div class="homeProHead">VIDEO PRODUCTION</div>
-                        <div class="homeListContainer">
-                            <p class="homeList">Commercials</p>
-                            <p class="homeList">Training Videos</p>
-                            <p class="homeList">Music Videos</p>
-                        </div>
+                    <div className="home-brand-header-wrapper">
+                        <h2 className="home-brand-header"> We specialize in connecting brands with people. </h2>
                     </div>
-                
-                    <div class="homePro">
-                        <div class="homeLogoHolder">
-                            <div id="homeProAdLogo"></div>
+                    <Link className="home-what" to="/video-production">
+                        <div className="home-what-column">
+                            <div className="homeLogoHolder">
+                                <div id="homeProVidLogo"></div>
+                            </div>
                         </div>
-                        <h1 class="homeProHead">ADVERTISING</h1>
-                        <div class="homeListContainer">
-                            <p class="homeList">Television</p>
-                            <p class="homeList">Radio</p>
-                            <p class="homeList">Digital</p>
+                        <div className="home-what-column">
+                            <h3 className="homeProHead"> Video Production </h3>
+                            <p className="home-what-par"> All videos are shot and edited by us. We develop relationship with our clients to find out exactly what they need and produce great commercials and videos for them.  </p>
                         </div>
-                    </div>
-                
-                    <div class="homePro">
-                        <div class="homeLogoHolder">
-                            <div id="homeProDesignLogo"></div>
+                    </Link>
+                    <Link className="home-what" to="/digital-marketing">
+                        <div className="home-what-column">
+                            <div className="homeLogoHolder">
+                                <div id="homeProAdLogo"></div>
+                            </div>
+                        </div>  
+                        <div className="home-what-column">
+                            <h3 className="homeProHead"> Advertising & Digital Marketing </h3>
+                            <p className="home-what-par"> We help you connect a brand with people. We produce creative and eye catching products that differentiates you from the competition.  </p>
                         </div>
-                        <h1 class="homeProHead">GRAPHIC DESIGN</h1>
-                        <div class="homeListContainer">
-                            <p class="homeList">Print Ads</p>
-                            <p class="homeList">Logos</p>
-                            <p class="homeList">Fliers</p>
+                    </Link>
+                    <Link className="home-what" to="/graphic-design">
+                        <div className="home-what-column">
+                            <div className="homeLogoHolder">
+                                <div id="homeProDesignLogo"></div>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="homePro">
-                        <div class="homeLogoHolder">
-                            <div id="homeProBillboardLogo"></div>
+                        <div className="home-what-column">
+                            <h3 className="homeProHead"> Graphic Design </h3>
+                            <p className="home-what-par"> We love getting creative and designing anything from digital ads to billboards. We follow a consistent visual identification of your service or product.   </p>
+                        </div> 
+                    </Link>
+                    <Link className="home-what" to="/billboards">
+                        <div className="home-what-column">
+                            <div className="homeLogoHolder">
+                                <div id="homeProBillboardLogo"></div>
+                            </div>
                         </div>
-                        <h1 class="homeProHead">Billboards</h1>
-                        <div class="homeListContainer">
-                            <p class="homeList">Traditional</p>
-                            <p class="homeList">Digital</p>
-                            <p class="homeList">Create Awareness</p>
+                        <div className="home-what-column">
+                            <h3 className="homeProHead"> Billboards </h3>
+                            <p className="home-what-par"> Billboards are a great way to get your brand seen by a lot of people. Wether you're starting out and need brand recognition or want to promote a special we can help!  </p>
+                        </div> 
+                    </Link>
+                    <Link className="home-what" to="/web-development">
+                        <div className="home-what-column">
+                            <div className="homeLogoHolder">
+                                <div id="homeProLaptopLogo"></div>
+                            </div>
                         </div>
-                    </div>
-                
-                    <div class="homePro">                                
-                        <div class="homeLogoHolder">
-                            <div id="homeProLaptopLogo"></div>
-                        </div>
-                        <h1 class="homeProHead">Web Development</h1>
-                        <div class="homeListContainer">
-                            <p class="homeList">Design</p>
-                            <p class="homeList">Mobile Friendly</p>
-                            <p class="homeList">Great First Impression</p>
-                        </div>
-                    </div>
-                
-                    <div class="homePro">                                
-                        <div class="homeLogoHolder">
-                            <div id="homeProSocialLogo"></div>
-                        </div>
-                        <h1 class="homeProHead">Digital Marketing</h1>
-                        <div class="homeListContainer">
-                            <p class="homeList">Digital Ads</p>
-                            <p class="homeList">Google</p>
-                            <p class="homeList">Facebook</p>
-                        </div>
+                        <div className="home-what-column">
+                            <h3 className="homeProHead"> Web Development & Design </h3>
+                            <p className="home-what-par"> A website is the front page of your brand and the first impression many people have of your business. We build and maintain fully custom websites that are optimized for search engines, so you can make a great first impression. </p>
+                        </div> 
+                    </Link>
+                </div>
+                <div id="client-holder">
+                    <h2 className="homeClientHeader"> Our Clients.  </h2>
+                    <div className="client-wrapper">
+                        <div className="client-holder"> <img src={ac} alt="AC's"/> </div>
+                        <div className="client-holder"> <img src={ark} alt="Ark La Tex"/> </div>
+                        <div className="client-holder"> <img src={badboys} alt="Grenada Bad Boys"/> </div>
+                        <div className="client-holder"> <img src={bigMuddy} alt="Big Muddy"/> </div>
+                        <div className="client-holder"> <img src={CharlestonsClinic2} alt="Charlestons Clinic"/> </div>
+                        <div className="client-holder"> <img src={csb} alt="Cleveland State Bank"/> </div>
+                        <div className="client-holder"> <img src={cookTractor} alt="Cook Tractor"/> </div>
+                        <div className="client-holder"> <img src={dh} alt="DH4"/> </div>
+                        <div className="client-holder"> <img src={eatFresh} alt="Eat Fresh"/> </div>
+                        <div className="client-holder"> <img src={fdf} alt="Factory Direct Furniture"/> </div>
+                        <div className="client-holder"> <img src={dental} alt="Grenada Dental"/> </div>
+                        <div className="client-holder"> <img src={hampton} alt="Hampton Inn"/> </div>
+                        <div className="client-holder"> <img src={hc} alt="Holcomb Clinic"/> </div>
+                        <div className="client-holder"> <img src={kirkAuto} alt="Kirk Auto Company"/> </div>
+                        <div className="client-holder"> <img src={ml} alt="Magnola Lighting"/> </div>
+                        <div className="client-holder"> <img src={modine} alt="Modine"/> </div>
+                        <div className="client-holder"> <img src={nsmc} alt="North Sunflower Medical Center"/> </div>
+                        <div className="client-holder"> <img src={sayle} alt="Sayle Oil Company"/> </div>
+                        <div className="client-holder"> <img src={spencer} alt="Spencers Dairy Kreamer"/> </div>
+                        <div className="client-holder"> <img src={tgh} alt="TGH"/> </div>
+                        <div className="client-holder"> <img src={tree} alt="Caldwell Tree Services"/> </div>
+                        <div className="client-holder"> <img src={truckOutfitter} alt="DK Truck Outfitters"/> </div>
+                        <div className="client-holder"> <img src={wngn} alt="WeeNeeGeeNee"/> </div>
+                        <div className="client-holder"> <img src={winonaTractor} alt="Winona Tractor"/> </div>
+                        <div className="client-holder"> <img src={xPlore} alt="xPlore"/> </div>
                     </div>
                 </div>
-            
-                <div class="recentWork">
-                    <h2 class="workHeader">Whitfield Media</h2>
-                    <div id="background-video">
-                        <iframe title="Whitfield Media Commercial" class="homeVid" id="video" src="https://player.vimeo.com/video/228438285" frameBorder="0" allowFullScreen></iframe>
-                    </div>
-                </div>
-                <h2 class="homeProHead"> Our Clients </h2>
-                <InfiniteCarousel breakpoints={[ {breakpoint: 1000, settings: { slidesToShow: 6, slidesToScroll: 1}}, {breakpoint: 800, settings: { slidesToShow: 4}}, { breakpoint: 500, settings: {slidesToShow: 3}}]} dots={false} showSides={false} slidesToScroll={1} slidesToShow={8} scrollOnDevice={true} animationDuration={500} autoCycle={true} cycleInterval={3000}>
-                    <div> <img src={ac} alt="AC's"/> </div>
-                    <div> <img src={ark} alt="Ark La Tex"/> </div>
-                    <div> <img src={badboys} alt="Grenada Bad Boys"/> </div>
-                    <div> <img src={bigMuddy} alt="Big Muddy"/> </div>
-                    <div> <img src={CharlestonsClinic2} alt="Charlestons Clinic"/> </div>
-                    <div> <img src={csb} alt="Cleveland State Bank"/> </div>
-                    <div> <img src={cookTractor} alt="Cook Tractor"/> </div>
-                    <div> <img src={dh} alt="DH4"/> </div>
-                    <div> <img src={eatFresh} alt="Eat Fresh"/> </div>
-                    <div> <img src={fdf} alt="Factory Direct Furniture"/> </div>
-                    <div> <img src={dental} alt="Grenada Dental"/> </div>
-                    <div> <img src={hampton} alt="Hampton Inn"/> </div>
-                    <div> <img src={hc} alt="Holcomb Clinic"/> </div>
-                    <div> <img src={kirkAuto} alt="Kirk Auto Company"/> </div>
-                    <div> <img src={ml} alt="Magnola Lighting"/> </div>
-                    <div> <img src={modine} alt="Modine"/> </div>
-                    <div> <img src={nsmc} alt="North Sunflower Medical Center"/> </div>
-                    <div> <img src={sayle} alt="Sayle Oil Company"/> </div>
-                    <div> <img src={spencer} alt="Spencers Dairy Kreamer"/> </div>
-                    <div> <img src={tgh} alt="TGH"/> </div>
-                    <div> <img src={tree} alt="Caldwell Tree Services"/> </div>
-                    <div> <img src={truckOutfitter} alt="DK Truck Outfitters"/> </div>
-                    <div> <img src={wngn} alt="WeeNeeGeeNee"/> </div>
-                    <div> <img src={winonaTractor} alt="Winona Tractor"/> </div>
-                    <div> <img src={xPlore} alt="xPlore"/> </div>
-                </InfiniteCarousel>
             </div>
         )
     }

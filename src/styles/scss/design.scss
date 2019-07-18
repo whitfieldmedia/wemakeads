@@ -304,7 +304,7 @@
 
 
 #designGridContainer {
-    background: #595959;
+    background: $black;
     width: 100%;
     justify-content: center;
     justify-items: center;
@@ -328,8 +328,7 @@
 .designColumn {
     display: flex;
     flex-flow: column;
-    background-color: #f3f3f3;
-    box-shadow: 0 0 3px 0.5px #666666;
+    background-color: $white;
     margin: 50px;
     border-radius: 15px;
     width: 300px;
@@ -359,8 +358,8 @@
     height: 75px;
     width: 75px;
     border-radius: 50%;
-    border: 2px solid #67BFEC;
-    background: #67BFEC;
+    border: 2px solid $blue;
+    background: $blue;
     margin: 10px auto 0 auto;
     padding: 0;
     display: flex;
@@ -403,7 +402,7 @@
 
 .designText {
     position: relative;
-    color: #666666;
+    color: $light-grey;
     margin: auto;
     height: auto;
     width: 80%;
@@ -412,12 +411,12 @@
     align-self: center;
 }
 .designSubH {
-    font-family: 'Work Sans', sans-serif;
+    font-family: $sans;
     font-weight: 400;
     text-align: center;
     font-size: 2.2em;
-    color: #f2f3ee;
-    text-shadow: 1px 1px #666666, -1px -1px #666666;
+    color: $white;
+    text-shadow: 1px 1px $light-grey, -1px -1px $light-grey;
     justify-self: center;
     align-self: center;
 }
@@ -428,7 +427,7 @@
     -ms-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     opacity: 1;
-    background-color: #f3f3f3;
+    background-color: $white;
     border-radius: 15px;
     justify-content: center;
     justify-items: center;

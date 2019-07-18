@@ -52,7 +52,7 @@
   position: relative;
   margin: 20px 10px 20px 10px;
   border-radius: 15px;
-  background: #fff;
+  background: #f5f7f6;
 }
 
 .blogImgRow {
@@ -65,8 +65,8 @@
   text-align: center;
   margin-top: 10px;
   padding-top: 0;
-  color: #474747;
-  font-family: "Work Sans", sans-serif;
+  color: #1A1A1C;
+  font-family: "Lora", serif;
   font-weight: 300;
   font-size: 22px;
 }
@@ -74,9 +74,10 @@
 .blogText {
   width: 90%;
   margin: 20px auto 40px auto;
-  color: #666666;
+  color: #3a3a3a;
   font-size: 18px;
   font-weight: 200;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .dateAndName {
@@ -102,12 +103,14 @@
 
 .postName {
   margin-left: 3px;
-  color: #999999;
+  color: #666666;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .postDate {
   margin-right: 15px;
-  color: #999999;
+  color: #666666;
+  font-family: "Ubuntu", sans-serif;
 }
 
 #blogModine {

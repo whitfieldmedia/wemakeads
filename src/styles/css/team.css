@@ -15,9 +15,9 @@
   text-align: center;
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Lora", serif;
   font-size: 30px;
-  color: #474747;
+  color: #1A1A1C;
   font-weight: 400;
 }
 
@@ -33,7 +33,6 @@
   margin: 20px auto;
   text-align: center;
   border-radius: 15px;
-  background: #fff;
 }
 
 .headshot {
@@ -46,9 +45,8 @@
 
 .teamName {
   font-size: 23px;
-  font-style: italic;
-  font-family: "Work Sans", sans-serif;
-  color: #474747;
+  font-family: "Lora", serif;
+  color: #3a3a3a;
   font-weight: 300;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -67,6 +65,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 @media (max-width: 1000px) {

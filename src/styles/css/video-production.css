@@ -23,10 +23,10 @@
 
 .productionHeader {
   text-align: center;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Vesper Libre", serif;
   font-weight: 500;
   font-size: 2.25em;
-  color: #f2f3ee;
+  color: #f5f7f6;
   margin-top: 0;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -39,14 +39,14 @@
   margin-left: auto;
   margin-right: auto;
   font-size: 1.75em;
-  color: #f2f3ee;
+  color: #f5f7f6;
   font-weight: 300;
 }
 
 #vidProUnderline {
   width: 300px;
   height: 3px;
-  background: #f2f3ee;
+  background: #f5f7f6;
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 20px;
@@ -57,7 +57,7 @@
   content: "";
   width: 200%;
   height: 100px;
-  background: #E8E8E8;
+  background: #e8e8e8;
   position: absolute;
   right: -10px;
   top: 0px;
@@ -85,7 +85,7 @@
   width: 100%;
   display: flex;
   flex-flow: column;
-  background: #595959;
+  background: #1A1A1C;
   padding: 50px 0;
 }
 

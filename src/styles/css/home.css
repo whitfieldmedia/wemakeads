@@ -8,18 +8,58 @@
 }
 
 #homeTop {
-  height: 100vh;
-  background-image: url("../../images/whitfieldCover.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center top;
+  height: auto;
   top: 0;
   position: relative;
 }
 
+.home-top-container {
+  width: 100%;
+  height: 80vh;
+  background: url(../../images/whitfieldCover.jpg);
+  background-color: #999999;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  display: flex;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  align-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.home-top-container img {
+  margin-top: 100px;
+  height: 150px;
+  width: auto;
+  display: block;
+}
+
+.home-top-header {
+  font-family: "Oxygen", sans-serif;
+  color: #f5f7f6;
+  font-size: 50px;
+  margin-bottom: 30px;
+  padding-bottom: 0;
+  font-weight: 400;
+  margin-top: 150px;
+}
+
+.background-video {
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+
+.home-background-video {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 #logo {
-  width: 50%;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -27,7 +67,7 @@
   flex-flow: column;
   justify-content: center;
   z-index: 1;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .homeLogo {
@@ -67,13 +107,26 @@
   font-size: 35px;
   position: relative;
   text-align: center;
-  font-weight: 300;
   color: #f5f7f6;
-  font-family: "Gilda Display", serif;
-  font-weight: 600;
+  font-family: "Vesper Libre", serif;
+  font-weight: 300;
+  font-style: italic;
   font-size: 60px;
   margin-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.header2 {
+  font-size: 35px;
+  position: relative;
+  text-align: center;
+  color: #f5f7f6;
+  font-family: "Lora", serif;
+  font-weight: 300;
+  font-size: 60px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 #homeLogoHolder {
@@ -99,32 +152,6 @@
   margin-top: -10px;
 }
 
-@media (max-width: 600px) {
-  .homeLogoSmall {
-    height: 50px;
-    width: 50px;
-    background-size: 40px 40px;
-  }
-
-  .header {
-    font-size: 50px;
-  }
-}
-@media (max-width: 450px) {
-  .homeLogoSmall {
-    height: 40px;
-    width: 40px;
-    background-size: 30px 30px;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-}
-@media (max-width: 350px) {
-  .homeLogoSmall {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-}
 .homeLink {
   text-decoration: none;
 }
@@ -132,27 +159,79 @@
 #homeWhat {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
-  justify-items: space-evenly;
+  justify-content: flex-start;
+  justify-items: flex-start;
   align-content: flex-start;
   align-items: flex-start;
   margin: 0;
-  padding: 50px 0;
+  padding: 0 0 50px 0;
+  background: #e8e8e8;
+}
+
+.home-what-header-wrapper {
+  width: 100%;
+  padding: 50px auto;
+  background: #000;
+}
+
+.home-what-header {
+  font-family: "Lora", serif;
+  font-size: 35px;
+  color: #f5f7f6;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 0;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  width: 80%;
+  margin: 0 auto 75px auto;
+}
+
+.home-brand-header-wrapper {
+  width: 100%;
+  margin: 20px auto 30px auto;
+}
+
+.home-brand-header {
+  font-family: "Lora", serif;
+  font-size: 35px;
+  color: #1A1A1C;
+  text-align: center;
+  font-weight: 300;
+  padding-bottom: 0;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  width: 80%;
+  margin: 25px auto;
+  background: #e8e8e8;
+}
+
+.fa-circle {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .homePro {
   display: flex;
   flex-flow: column;
-  padding: 0 25px 25px 25px;
-  width: 250px;
+  padding: 0 10px 25px 10px;
+  width: auto;
   justify-self: center;
   align-self: flex-start;
   z-index: 2;
+  text-decoration: none;
 }
 
 .homeLogoHolder {
-  height: 90px;
-  width: 90px;
+  height: 75px;
+  width: 75px;
   border: 2px solid #67BFEC;
   background-color: #f2f3ee;
   border-radius: 50%;
@@ -166,55 +245,74 @@
   z-index: 0;
 }
 
+.home-what {
+  width: 50%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+.home-what-column {
+  display: flex;
+  flex-flow: column;
+  width: auto;
+  max-width: 400px;
+  margin: 10px;
+}
+
 #homeProVidLogo {
-  height: 60px;
-  width: 60px;
-  background-size: 60px 60px;
+  height: 50px;
+  width: 50px;
+  background-size: 50px 50px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../../images/video-camera-blue.svg");
 }
 
 #homeProAdLogo {
-  height: 60px;
-  width: 60px;
-  background-size: 60px 60px;
+  height: 50px;
+  width: 50px;
+  background-size: 50px 50px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../../images/megaphone-blue.svg");
 }
 
 #homeProDesignLogo {
-  height: 60px;
-  width: 60px;
-  background-size: 60px 60px;
+  height: 50px;
+  width: 50px;
+  background-size: 50px 50px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../../images/graphic-design-blue.svg");
 }
 
 #homeProBillboardLogo {
-  height: 60px;
-  width: 60px;
-  background-size: 60px 60px;
+  height: 50px;
+  width: 50px;
+  background-size: 50px 50px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../../images/billboard-blue.svg");
 }
 
 #homeProLaptopLogo {
-  height: 60px;
-  width: 60px;
-  background-size: 60px 60px;
+  height: 50px;
+  width: 50px;
+  background-size: 50px 50px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../../images/web-blue.svg");
 }
 
 #homeProSocialLogo {
-  height: 60px;
-  width: 60px;
-  background-size: 60px 60px;
+  height: 50px;
+  width: 50px;
+  background-size: 50px 50px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../../images/team-blue.svg");
@@ -255,13 +353,38 @@
 }
 
 .homeProHead {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 400;
-  color: #474747;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  color: #1A1A1C;
   line-height: 40px;
-  margin: 10px 0 0 0;
+  margin: 0;
   padding: 0;
+  font-family: "Lora", serif;
+}
+
+.homeClientHeader {
+  font-family: "Lora", serif;
+  font-size: 35px;
+  color: #1A1A1C;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 0;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.home-what-par {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  color: #3a3a3a;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .homeListContainer {
@@ -346,31 +469,88 @@
   justify-self: center;
 }
 
+#client-holder {
+  padding: 30px 0 50px 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  background: #ffffff;
+}
+
+.client-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  justify-items: space-evenly;
+  margin: 0 auto;
+}
+
+.client-holder {
+  padding: 20px;
+}
+.client-holder img {
+  width: 200px;
+  max-height: 150px;
+  height: auto;
+}
+
 @media (max-width: 1000px) {
-  #background-video iframe {
-    height: 400px;
-  }
-}
-@media (max-width: 400px) {
-  #background-video iframe {
-    height: 200px;
-    width: 300px;
-  }
-
-  #prevArrow {
-    height: 20px;
-    width: 10px;
+  .home-what {
+    width: 45%;
+    margin: 20px auto;
+    flex-flow: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
   }
 
-  #nextArrow {
-    height: 20px;
-    width: 10px;
+  .homeProHead {
+    text-align: center;
+  }
+
+  .home-what-column {
+    margin: 5px;
   }
 }
-@media (max-width: 350px) {
-  #background-video iframe {
-    height: 150px;
-    width: 250px;
+@media only screen and (max-width: 725px) {
+  .client-holder {
+    padding: 10px;
+  }
+  .client-holder img {
+    width: 150px;
+    max-height: 100px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #homeWhat {
+    flex-flow: column;
+  }
+
+  .home-what {
+    width: 80%;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .home-what-column {
+    max-width: 100%;
+  }
+
+  .homeProHead {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .client-holder img {
+    width: 125px;
+    max-height: 90px;
   }
 }
 #clients {
@@ -478,22 +658,39 @@
     margin-top: 10px;
   }
 }
-#carousel-page {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 20px;
-}
+@media (max-width: 600px) {
+  .homeLogoSmall {
+    height: 50px;
+    width: 50px;
+    background-size: 40px 40px;
+  }
 
-.owl-carousel .item {
-  margin: 30px;
+  .header {
+    font-size: 50px;
+  }
 }
+@media (max-width: 450px) {
+  .homeLogoSmall {
+    height: 40px;
+    width: 40px;
+    background-size: 30px 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 350px) {
+  .homeLogoSmall {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
 
-.owl-carousel .item img {
-  display: inline-block;
-  width: 75px;
-  height: auto;
+  .home-top-header {
+    font-size: 40px;
+  }
+
+  .home-what-header {
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=home.css.map */

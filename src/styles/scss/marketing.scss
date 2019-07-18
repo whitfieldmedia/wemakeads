@@ -20,7 +20,7 @@
     width: 400px;
     height: 3px;
     margin-top: 3px;
-    background: #f2f3ee;
+    background: $white;
 }
 
 #marketingHolder {
@@ -32,7 +32,7 @@
     content: '';
     width: 200%;
     height: 100px;
-    background: #E8E8E8;
+    background: $darkWhite;
     position: absolute;
     right: -10px;
     top: 0px;
@@ -43,7 +43,7 @@
 }
 
 #adSecondContainer {
-    background: #E8E8E8;
+    background: $darkWhite;
     width: 100%;
     min-height: 80vh;
     height: auto;

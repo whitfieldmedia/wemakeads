@@ -3,7 +3,7 @@
 }
 
 .navbar2 {
-  background: linear-gradient(to bottom, #1A1A1C, transparent);
+  background: #0d0d0d;
   position: fixed;
   z-index: 100;
   width: 100vw;
@@ -58,7 +58,7 @@
   display: none;
   position: relative;
   background: none;
-  width: 200px;
+  width: 100%;
   top: 0;
   height: auto;
   align-self: center;
@@ -239,10 +239,11 @@
 
 .nav-header {
   font-family: "Merriweather", serif;
-  font-size: 40px;
+  font-size: 25px;
   padding: 0;
   margin: 0;
   line-height: 35px;
+  padding-top: 20px;
 }
 
 .nav-x {
@@ -297,7 +298,7 @@
     justify-items: center;
     align-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #1A1A1C, #3a3a3a, transparent);
+    background: #0d0d0d;
   }
 
   .main-nav {
@@ -348,7 +349,7 @@
     display: none;
     position: absolute;
     width: 100%;
-    padding-top: 60px;
+    padding-top: 65px;
     z-index: 10;
     background: none;
   }
@@ -359,7 +360,7 @@
     position: relative;
     text-decoration: none;
     background: #f5f7f6;
-    height: auto;
+    height: 100%;
     display: block;
     text-align: center;
     width: 100%;
@@ -380,6 +381,9 @@
     background: #f2f3ee;
     z-index: 101;
   }
+}
+#home-link {
+  font-family: "Merriweather", serif;
 }
 
 /*# sourceMappingURL=nav.css.map */

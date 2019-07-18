@@ -56,10 +56,10 @@ class Nav extends React.Component {
                 <header className="navbar nav-down" id="navbar">
                     <ul className="main-nav" id="js-menu">
                         <li className="nav-link">
-                            <Link className="nav-links" id="home-link" to="/"> HOME </Link>
+                            <Link className="nav-links" id="home-link" to="/"> Whitfield Media </Link>
                         </li>
                         <li className="dropdown">
-                            <div className="dropbtn" id="dropdown-button" onClick={this.handleDropdown}> WHAT WE DO </div>
+                            <div className="dropbtn" id="dropdown-button" onClick={this.handleDropdown}> WHAT WE DO <i className="fas fa-caret-down"></i>  </div>
                             <div className="dropdown-content" id="dropdown-content">
                                 <Link className="dropdown-link" id="marketing-link" to="/digital-marketing"> DIGITAL MARKETING </Link>
                                 <Link className="dropdown-link" id="design-link" to="/graphic-design"> GRAPHIC DESIGN </Link>
@@ -98,7 +98,7 @@ class Nav extends React.Component {
                             <Link onClick={this.handleClose} className="nav-links" to="/"> HOME </Link>
                         </li>
                         <li className="drowdown">
-                            <div className="dropbtn" onClick={this.handleDropdown}> WHAT WE DO </div>
+                            <div className="dropbtn" onClick={this.handleDropdown}> WHAT WE DO <i className="fas fa-caret-down"></i> </div>
                             <div className={this.state.dropdown}>
                                 <Link onClick={this.handleClose} className="dropdown-link" id="marketing-link" to="/digital-marketing"> DIGITAL MARKETING </Link>
                                 <Link onClick={this.handleClose} className="dropdown-link" id="design-link" to="/graphic-design"> GRAPHIC DESIGN </Link>

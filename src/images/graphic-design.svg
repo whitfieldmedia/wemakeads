@@ -2,30 +2,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px"><g><g>
 	<g>
 		<g>
-			<path d="M504.8,108.8H504c0-29.6-23.2-52.8-52.8-52.8H60.8C31.2,56,8,79.2,8,108.8v246.4C8,384.8,31.2,408,60.8,408h141.6l-12,56     H136c-4.8,0-8,3.2-8,8v32c0,4.8,3.2,8,8,8h240c4.8,0,8-3.2,8-8v-32c0-4.8-3.2-8-8-8h-53.6l-12-56H452c28.8,0,52.8-23.2,52.8-52.8     V108.8z M368,480v16H144v-16H368z M206.4,464l12-56h75.2l12,56H206.4z M488,355.2c0,20-16.8,36.8-36.8,36.8H60.8     c-20,0-36.8-16.8-36.8-36.8V328h464V355.2z M488,312H24V108.8C24,88.8,40.8,72,60.8,72h390.4c20,0,36.8,16.8,36.8,36.8V312z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<circle cx="256" cy="360" r="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="376" y="104" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="408" y="104" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="440" y="104" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="408" y="136" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="440" y="136" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="296" y="264" width="160" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="320" y="232" width="136" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="344" y="200" width="112" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="440" y="168" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<path d="M260,168.8c-2.4-1.6-5.6-1.6-8,0l-36,18.4V176c0-4.8-3.2-8-8-8h-40.8c0.8-2.4,0.8-5.6,0.8-8c0-31.2-24.8-56-56-56     s-56,24.8-56,56c0,28,20.8,51.2,48,55.2V272c0,4.8,3.2,8,8,8h96c4.8,0,8-3.2,8-8v-11.2l36,18.4c1.6,0.8,2.4,0.8,4,0.8     c4.8,0,8-3.2,8-8v-96C264,173.6,262.4,170.4,260,168.8z M104,176v23.2c-21.6-4-36-25.6-31.2-47.2c4-18.4,20-32,39.2-32     c22.4,0,40,17.6,40,40c0,2.4,0,5.6-0.8,8H112C107.2,168,104,171.2,104,176z M144,184c-5.6,8-14.4,13.6-24,15.2V184H144z      M200,235.2L177.6,224l22.4-11.2V235.2z M200,195.2l-44,21.6c-2.4,1.6-4,4-4,7.2s1.6,5.6,4,7.2l44,21.6V264h-80v-48.8     c18.4-2.4,34.4-14.4,42.4-31.2H200V195.2z M248,259.2l-32-16v-38.4l32-16V259.2z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="496" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="496" y="32" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="464" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="32" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect y="32" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect y="496" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect y="464" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="32" y="496" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="496" y="496" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="464" y="496" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
-			<rect x="496" y="464" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<path d="M504.8,108.8H504c0-29.6-23.2-52.8-52.8-52.8H60.8C31.2,56,8,79.2,8,108.8v246.4C8,384.8,31.2,408,60.8,408h141.6l-12,56     H136c-4.8,0-8,3.2-8,8v32c0,4.8,3.2,8,8,8h240c4.8,0,8-3.2,8-8v-32c0-4.8-3.2-8-8-8h-53.6l-12-56H452c28.8,0,52.8-23.2,52.8-52.8     V108.8z M368,480v16H144v-16H368z M206.4,464l12-56h75.2l12,56H206.4z M488,355.2c0,20-16.8,36.8-36.8,36.8H60.8     c-20,0-36.8-16.8-36.8-36.8V328h464V355.2z M488,312H24V108.8C24,88.8,40.8,72,60.8,72h390.4c20,0,36.8,16.8,36.8,36.8V312z" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<circle cx="256" cy="360" r="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="376" y="104" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="408" y="104" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="440" y="104" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="408" y="136" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="440" y="136" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="296" y="264" width="160" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="320" y="232" width="136" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="344" y="200" width="112" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="440" y="168" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<path d="M260,168.8c-2.4-1.6-5.6-1.6-8,0l-36,18.4V176c0-4.8-3.2-8-8-8h-40.8c0.8-2.4,0.8-5.6,0.8-8c0-31.2-24.8-56-56-56     s-56,24.8-56,56c0,28,20.8,51.2,48,55.2V272c0,4.8,3.2,8,8,8h96c4.8,0,8-3.2,8-8v-11.2l36,18.4c1.6,0.8,2.4,0.8,4,0.8     c4.8,0,8-3.2,8-8v-96C264,173.6,262.4,170.4,260,168.8z M104,176v23.2c-21.6-4-36-25.6-31.2-47.2c4-18.4,20-32,39.2-32     c22.4,0,40,17.6,40,40c0,2.4,0,5.6-0.8,8H112C107.2,168,104,171.2,104,176z M144,184c-5.6,8-14.4,13.6-24,15.2V184H144z      M200,235.2L177.6,224l22.4-11.2V235.2z M200,195.2l-44,21.6c-2.4,1.6-4,4-4,7.2s1.6,5.6,4,7.2l44,21.6V264h-80v-48.8     c18.4-2.4,34.4-14.4,42.4-31.2H200V195.2z M248,259.2l-32-16v-38.4l32-16V259.2z" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="496" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="496" y="32" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="464" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="32" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect y="32" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect y="496" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect y="464" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="32" y="496" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="496" y="496" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="464" y="496" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
+			<rect x="496" y="464" width="16" height="16" data-original="#000000" className="active-path" data-old_color="#000000" fill="#F5F7F6"/>
 		</g>
 	</g>
 </g></g> </svg>

@@ -4,22 +4,44 @@
   width: 100%;
   padding-top: 100px;
   padding-bottom: 50px;
-  background-color: #595959;
+  background-color: #e8e8e8;
   min-height: 80vh;
 }
 
 #billboardUnderline {
   height: 2px;
-  width: 100px;
-  background: #f2f3ee;
+  width: 200px;
+  background: #1A1A1C;
   align-self: center;
   justify-self: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.billboardMainHeader {
+  font-family: "Vesper Libre", serif;
+  font-size: 35px;
+  color: #1A1A1C;
+  text-align: center;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 35px;
+}
+
+.billboardMainPar {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 23px;
+  color: #3a3a3a;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
 }
 
 #contactLink {
-  color: #f2f3ee;
+  color: #3a3a3a;
   font-size: 1.05em;
   font-weight: 400;
   padding-left: 10px;
@@ -27,7 +49,7 @@
 }
 
 #contactLink:hover {
-  color: #5495ff;
+  color: #66C0ED;
 }
 
 #designBillboards {

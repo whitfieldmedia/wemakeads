@@ -5,11 +5,7 @@
 }
 
 .navbar2 {
-    background: linear-gradient(
-        to bottom,
-        $black,
-        transparent
-    );
+    background: $darkBlack;
     position: fixed;
     z-index: 100;
     width: 100vw;
@@ -25,18 +21,6 @@
     align-content: center;
     align-items: center;
 }
-
-// .logo {
-//     height: 50px;
-//     width: auto;
-//     z-index: 200;
-//     margin-left: 30px;
-//     display: block;
-//     position: absolute;
-//     top: 10px;
-//     text-decoration: none;
-//     overscroll-behavior-y: none;
-// }
 
 .dropdown {
     display: flex;
@@ -76,7 +60,7 @@
     display: none; 
     position: relative;
     background: none;
-    width: 200px;
+    width: 100%;
     top: 0;
     height: auto;
     align-self: center;
@@ -255,10 +239,11 @@
 
 .nav-header {
     font-family: $serif3;
-    font-size: 40px;
+    font-size: 25px;
     padding: 0;
     margin: 0;
     line-height: 35px;
+    padding-top: 20px;
 }
 
 .nav-x {
@@ -309,12 +294,7 @@
         justify-items: center;
         align-content: center;
         align-items: center;
-        background: linear-gradient(
-            to bottom,
-            $black,
-            $dark-grey,
-            transparent
-        );
+        background: $darkBlack;
     }
     .main-nav {
         display: flex;
@@ -358,7 +338,7 @@
         display: none; 
         position: absolute;
         width: 100%;
-        padding-top: 60px;
+        padding-top: 65px;
         z-index: 10;
         background: none;
     }
@@ -369,7 +349,7 @@
         position: relative;
         text-decoration: none;
         background: $white;
-        height: auto;
+        height: 100%;
         display: block;
         text-align: center;
         width: 100%;
@@ -387,4 +367,8 @@
         background: $offWhite;
         z-index: 101;
     }
+}
+
+#home-link {
+    font-family: $serif3;
 }

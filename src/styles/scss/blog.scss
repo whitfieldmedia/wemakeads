@@ -46,12 +46,12 @@
 .blogPost {
     height: 550px;
     width: 330px;
-    box-shadow: 0 0 3px 0.5px #666666;
+    box-shadow: 0 0 3px 0.5px $light-grey;
     display: block;
     position: relative;
     margin: 20px 10px 20px 10px;
     border-radius: 15px;
-    background: #fff;
+    background: $white;
 }
 
 .blogImgRow {
@@ -64,18 +64,19 @@
     text-align: center;
     margin-top: 10px;
     padding-top: 0;
-    color: #474747;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    color: $black;
+    font-family: $serif;
+    font-weight: $light;
     font-size: 22px;
 }
 
 .blogText {
     width: 90%;
     margin: 20px auto 40px auto;
-    color: #666666;
+    color: $dark-grey;
     font-size: 18px;
     font-weight: 200;
+    font-family: $sans;
 }
 
 .dateAndName {
@@ -101,11 +102,13 @@
 
 .postName {
     margin-left: 3px;
-    color: #999999;
+    color: $light-grey;
+    font-family: $sans;
 }
 .postDate {
     margin-right: 15px;
-    color: #999999;
+    color: $light-grey;
+    font-family: $sans;
 }
 
 #blogModine {

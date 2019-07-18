@@ -10,10 +10,10 @@
 
 .contactHeader {
   text-align: center;
-  font-family: "Work Sans", sans-serif;
-  font-size: 25px;
+  font-family: "Lora", serif;
+  font-size: 30px;
   padding: 20px;
-  color: #474747;
+  color: #1A1A1C;
   font-weight: 400;
 }
 
@@ -21,10 +21,11 @@
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #666666;
-  font-weight: 200;
+  font-weight: 300;
+  font-family: "Ubuntu", sans-serif;
 }
 
 #form {
@@ -37,11 +38,25 @@
   flex-flow: column;
 }
 
+.form_label {
+  padding-top: 7px;
+  padding-right: 15px;
+  justify-self: baseline;
+  align-self: baseline;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  height: 20px;
+  width: auto;
+  color: #66C0ED;
+}
+
 .row {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  align-content: center;
-  margin-top: 20px;
+  flex-flow: row;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #1A1A1C;
 }
 
 .column {
@@ -53,53 +68,46 @@
   margin-left: auto;
 }
 
-.form-label {
-  text-align: justify;
-  margin-left: 5.5%;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 400;
-  color: #474747;
-}
-
 .input {
   width: 90%;
-  height: 35px;
-  box-sizing: border-box;
-  outline: none;
-  border: 1px solid gray;
-  padding: 10px 15px;
-  margin: 10px auto;
-  font-size: 18px;
-  border-radius: 30px;
+  height: 30px;
+  border: none;
+  font-size: 15px;
+  background: #f5f7f6;
+  color: #1A1A1C;
 }
 
-#messageInput {
-  height: 80px;
-}
-
-.message-label {
-  margin-left: 30px;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 400;
-  color: #474747;
+.input::placeholder {
+  color: #1A1A1C;
 }
 
 #form-button {
   margin: 15px auto;
-  width: 150px;
+  width: 120px;
   height: 30px;
   font-size: 18px;
   border-radius: 15px;
-  background-color: #f3f3f3;
+  border: 1px solid #66C0ED;
+  background-color: #f5f7f6;
+  color: #66C0ED;
+}
+
+.fa-paper-plane {
+  color: #66C0ED;
+  padding-right: 5px;
+}
+
+#form-button:hover {
+  color: #f5f7f6;
+  background: #66C0ED;
+}
+#form-button:hover .fa-paper-plane {
+  color: #f5f7f6;
 }
 
 .buttonContainer {
   width: 100%;
   display: flex;
-}
-
-#form-button:hover {
-  color: #5495ff;
 }
 
 #formMapContainer {
@@ -119,15 +127,15 @@
 .number {
   text-align: center;
   font-size: 22px;
-  color: #474747;
-  font-family: "Work Sans", sans-serif;
+  color: #666666;
+  font-family: "Lora", serif;
   margin-bottom: 20px;
   text-decoration: none;
   font-weight: 400;
 }
 
 .number:hover {
-  color: #5495ff;
+  color: #66C0ED;
 }
 
 .address {
@@ -138,13 +146,13 @@
 
 .addressLink {
   text-decoration: none;
-  color: #474747;
-  font-family: "Work Sans", sans-serif;
+  color: #666666;
+  font-family: "Lora", serif;
   font-weight: 400;
 }
 
 .addressLink:hover {
-  color: #5495ff;
+  color: #66C0ED;
 }
 
 #map {

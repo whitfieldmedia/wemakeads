@@ -1,7 +1,7 @@
 @import 'assets'; 
 
 #devPage {
-    background: $blue;
+    background: $darkWhite;
 }
 
 #devTop {
@@ -22,7 +22,7 @@
 #devUnderline {
     height: 3px;
     width: 250px;
-    background: #f2f3ee;
+    background: $white;
     margin-top: 0;
     padding-top: 0;
 }
@@ -32,7 +32,7 @@
     content: '';
     width: 200%;
     height: 100px;
-    background: $blue;
+    background: $darkWhite;
     position: absolute;
     right: -10px;
     top: 0px;
@@ -79,7 +79,7 @@
     align-self: center;
     margin-left: auto;
     margin-right: auto;
-    background: $blue;
+    background: $darkWhite;
 }
 .web-icon-container {
     display: flex;
@@ -101,14 +101,15 @@
 .web-icon-text {
     font-family: $sans;
     font-size: 25px;
-    color: $white;
+    color: $black;
     text-align: center;
 }
 
 .devPar {
     font-family: $sans;
     font-size: 22px;
-    color: $white;
+    color: $dark-grey;
+    font-weight: 300;
     width: 90vw;
     max-width: 1000px;
     min-width: 300px;
@@ -116,13 +117,13 @@
 }
 
 #devBottom {
-    background: #595959;
+    background: $black;
     padding-bottom: 50px;
 }
 
 .devSubHeader {
-    color: $white;
-    font-family: $serif;
+    color: $black;
+    font-family: $serif2;
     font-size: 35px;
     text-align: center;
     padding-top: 50px;
@@ -183,13 +184,13 @@
     -ms-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     opacity: 1;
-    background: #e7e7e7;
+    background: $white;
     cursor: pointer;
 }
 
 .siteLink {
     text-decoration: none;
-    color: #111419;
+    color: $black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,7 +218,7 @@
     width: 125px;
     height: 30px;
     margin: 30px auto 0 auto;
-    background-color: #e7e7e7;
+    background-color: $white;
     justify-self: center;
     align-self: center;
 }
