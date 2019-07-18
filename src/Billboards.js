@@ -7,7 +7,7 @@ import billboardIcon from './images/billboard-blue.svg';
 import { Link } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import { Helmet } from 'react-helmet';
-import './styles/scss/billboards.scss';
+import './styles/css/billboards.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 class Billboards extends React.Component {

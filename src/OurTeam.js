@@ -8,7 +8,7 @@ import joseph from './images/JosephHeadshot.jpg';
 import chris from './images/ChrisHeadshot.jpeg';
 import spencer from './images/spencieHeadshot.jpg';
 import { Helmet } from 'react-helmet';
-import './styles/scss/team.scss';
+import './styles/css/team.css';
 
 class OurTeam extends React.Component {
     componentDidMount() {

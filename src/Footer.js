@@ -1,7 +1,7 @@
 import React from 'react';
 import fb from './images/facebook-logo.svg';
 import email from './images/mail-black-envelope-symbol.svg';
-import './styles/scss/footer.scss';
+import './styles/css/footer.css';
 
 function Footer() {
     return (

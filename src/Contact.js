@@ -1,7 +1,7 @@
 import React from 'react';
 import map from './images/map.png';
 import { Helmet } from 'react-helmet';
-import './styles/scss/contact.scss';
+import './styles/css/contact.css';
 
 class Contact extends React.Component {
     componentDidMount() {

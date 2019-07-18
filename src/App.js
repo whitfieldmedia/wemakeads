@@ -13,7 +13,7 @@ import VideoGallery from './VideoGallery';
 import VideoProduction from './VideoProduction';
 import WebDevelopment from './WebDevelopment';
 import { Switch, Route } from 'react-router-dom';
-import './styles/scss/styles.scss';
+import './styles/css/styles.css';
 
 function App() {
   return (

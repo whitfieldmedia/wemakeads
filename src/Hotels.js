@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import './styles/scss/hotels.scss';
+import './styles/css/hotels.css';
 
 class Hotels extends React.Component {
     componentDidMount() {

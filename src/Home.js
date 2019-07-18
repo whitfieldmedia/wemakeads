@@ -26,7 +26,7 @@ import winonaTractor from './images/winonaTractor2.png';
 import xPlore from './images/xPlore.svg';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import './styles/scss/home.scss';
+import './styles/css/home.css';
 
 class Home extends React.Component {
     componentDidMount() {

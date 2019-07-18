@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import './styles/scss/gallery.scss';
+import './styles/css/gallery.css';
 
 class VideoGallery extends React.Component {
     componentDidMount() {

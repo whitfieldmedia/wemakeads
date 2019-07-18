@@ -5,7 +5,7 @@ import file from './images/flyer.svg';
 import camera from './images/camera.svg';
 import newsPaper from './images/newspaper.svg';
 import { Helmet } from 'react-helmet';
-import './styles/scss/design.scss';
+import './styles/css/design.css';
 
 class GraphicDesign extends React.Component {
     componentDidMount() {

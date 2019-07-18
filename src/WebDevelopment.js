@@ -5,7 +5,7 @@ import responsive from './images/responsive-design-symbol-blue.svg';
 import ux from './images/interactivity-blue.svg';
 import design from './images/graphic-design-blue.svg';
 import { Helmet } from 'react-helmet';
-import './styles/scss/dev.scss';
+import './styles/css/dev.css';
 
 class WebDevelopment extends React.Component {
     componentDidMount() {

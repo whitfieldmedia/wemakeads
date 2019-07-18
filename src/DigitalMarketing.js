@@ -4,7 +4,7 @@ import user from './images/team.svg';
 import seo from './images/seo.svg';
 import targeting from './images/target.svg';
 import { Helmet } from 'react-helmet';
-import './styles/scss/marketing.scss';
+import './styles/css/marketing.css';
 
 class DigitalMarketing extends React.Component {
     componentDidMount() {

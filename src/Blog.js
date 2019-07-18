@@ -11,7 +11,7 @@ import dkLogo from './images/truckOutfitters2.png';
 import resolute from './images/resoluteLogo.png';
 import apl from './images/advancedProductsLogo.png';
 import { Helmet } from 'react-helmet';
-import './styles/scss/blog.scss';
+import './styles/css/blog.css';
 
 class Blog extends React.Component {
     componentDidMount() {

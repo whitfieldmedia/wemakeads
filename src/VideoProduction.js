@@ -7,7 +7,7 @@ import camera from './images/camera.svg';
 import file from './images/flyer.svg';
 import microphone from './images/microphone.svg';
 import { Helmet } from 'react-helmet';
-import './styles/scss/video-production.scss';
+import './styles/css/video-production.css';
 
 class VideoProduction extends React.Component {
     componentDidMount() {
