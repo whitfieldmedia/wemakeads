@@ -35,7 +35,7 @@ class WebDevelopment extends React.Component {
                     <h2 className="devSubHeader">Our Focus</h2>
                     <div className="web-icon-container">
                         <div className="web-icon-holder">
-                            <img src={optimize} className="web-icon" alt="optimizatize" />
+                            <img src={optimize} className="web-icon" alt="optimization" />
                             <p className="web-icon-text"> Fast </p>
                         </div>
                         <div className="web-icon-holder">
