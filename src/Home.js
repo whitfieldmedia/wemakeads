@@ -24,6 +24,12 @@ import truckOutfitter from './images/truckOutfitters2.png';
 import wngn from './images/weenee-logo.svg';
 import winonaTractor from './images/winonaTractor2.png';
 import xPlore from './images/xPlore.svg';
+import paps from './images/papsLogo.jpg';
+import bryantFarms from './images/bryantFarmsLogo.png';
+import holmes from './images/holcomb-clinic-logo.svg';
+import taylorAuction from './images/taylor-auction-logo.png';
+import tutwilerClinic from './images/tutwiler-clinic-logo.png';
+import coffeeville from './images/coffeeville_logo.png';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import './styles/css/home.css';
@@ -112,6 +118,12 @@ class Home extends React.Component {
                 <div id="client-holder">
                     <h2 className="homeClientHeader"> Our Clients.  </h2>
                     <div className="client-wrapper">
+                        <div className="client-holder"> <img src={paps} alt="Paps"/> </div>
+                        <div className="client-holder"> <img src={bryantFarms} alt="Bryant Farms Beef"/> </div>
+                        <div className="client-holder"> <img src={holmes} alt="Holmes Community College"/> </div>
+                        <div className="client-holder"> <img src={taylorAuction} alt="Taylor Auction"/> </div>
+                        <div className="client-holder"> <img src={tutwilerClinic} alt="Tutwiler Clinic"/> </div>
+                        <div className="client-holder"> <img src={coffeeville} alt="Coffeeville School District"/> </div>
                         <div className="client-holder"> <img src={ac} alt="AC's"/> </div>
                         <div className="client-holder"> <img src={ark} alt="Ark La Tex"/> </div>
                         <div className="client-holder"> <img src={badboys} alt="Grenada Bad Boys"/> </div>
