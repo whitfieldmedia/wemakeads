@@ -1,5 +1,4 @@
 import React from 'react';
-import billboard1 from './images/billboard1TurboTaylor.jpg';
 import billboard2 from './images/billboard2Toyota.jpg';
 import billboard3 from './images/billboard3Sayle.jpg';
 import billboard4 from './images/billboard4GrenadaBadBoys.jpg';
@@ -37,7 +36,6 @@ class Billboards extends React.Component {
                     </div>
                     <div id="billboard-carousel">
                         <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true} transitionTime={350} interval={5000} dynamicHeight >
-                            <div><img src={billboard1} alt=""/></div>
                             <div><img src={billboard2} alt=""/></div>
                             <div><img src={billboard3} alt=""/></div>
                             <div><img src={billboard4} alt=""/></div>
