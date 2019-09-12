@@ -30,6 +30,18 @@ import holmes from './images/holcomb-clinic-logo.svg';
 import taylorAuction from './images/taylor-auction-logo.png';
 import tutwilerClinic from './images/tutwiler-clinic-logo.png';
 import coffeeville from './images/coffeeville_logo.png';
+import Bar805 from './images/805Bar.jpg';
+import brokenEgg from './images/another-broken-egg.png';
+import boot from './images/boot.png';
+import botanicalGardens from './images/botanical-gardens.png';
+import brickhouse from './images/brickhouse-sports-cafe-logo.png';
+import bullet from './images/bullet-barrel.png';
+import otbx from './images/otbx-solid.png';
+import purpleCup from './images/purplecup-logo-solid.png';
+import straightToAle from './images/straight-to-ale.png';
+import poppy from './images/the-poppy-solid.png';
+import waltons from './images/waltons-logo.png';
+import atWood from './images/atwoodLogo.png';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import './styles/css/home.css';
@@ -149,6 +161,18 @@ class Home extends React.Component {
                         <div className="client-holder"> <img src={wngn} alt="WeeNeeGeeNee"/> </div>
                         <div className="client-holder"> <img src={winonaTractor} alt="Winona Tractor"/> </div>
                         <div className="client-holder"> <img src={xPlore} alt="xPlore"/> </div>
+                        <div className="client-holder"> <img src={Bar805} alt="The Bar at 805"/> </div>
+                        <div className="client-holder"> <img src={brokenEgg} alt="Another Broken Egg"/> </div>
+                        <div className="client-holder"> <img src={boot} alt="The boot pizzeria"/> </div>
+                        <div className="client-holder"> <img src={botanicalGardens} alt="Botanical Gardens"/> </div>
+                        <div className="client-holder"> <img src={brickhouse} alt="Brickhouse Sports Cafe"/> </div>
+                        <div className="client-holder"> <img src={bullet} alt="Bullet and Barrel"/> </div>
+                        <div className="client-holder"> <img src={otbx} alt="Otbx"/> </div>
+                        <div className="client-holder"> <img src={purpleCup} alt="Secret Art Trail Huntsville, Al"/> </div>
+                        <div className="client-holder"> <img src={straightToAle} alt="Straight To Ale"/> </div>
+                        <div className="client-holder"> <img src={poppy} alt="The Poppy"/> </div>
+                        <div className="client-holder"> <img src={waltons} alt="Waltons Southern Table"/> </div>
+                        <div className="client-holder"> <img src={atWood} alt="Atwood Chevrolet"/> </div>
                     </div>
                 </div>
             </div>
