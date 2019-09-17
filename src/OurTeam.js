@@ -7,6 +7,7 @@ import ashley from './images/ashleyHeadshot.jpg';
 import joseph from './images/JosephHeadshot.jpg';
 import chris from './images/ChrisHeadshot.jpeg';
 import spencer from './images/spencieHeadshot.jpg';
+import steve from './images/steve_headshot.jpg';
 import { Helmet } from 'react-helmet';
 import './styles/css/team.css';
 
@@ -76,14 +77,23 @@ class OurTeam extends React.Component {
                             Currently, he runs his own business (Chris Reed Dozer Work) in Grenada, MS.</p><br/>
                     </section>     
                     <section id="spencie" className="teamMember">
-                        <h1 className="teamName"> Spencer Backman <br/> Web Developer </h1>
+                        <h1 className="teamName"> Spencer Backman, Web Developer </h1>
                         <p className="teamText">
                             <img className="headshot" id="spencieHeadshot" src={spencer} alt="Spencer Backman" />
                             Spencer Backman is our Web Developer and Designer. 
                             He specializes in building modern and clean websites using Html, Css, Javascript, and React. 
                             He analyzes and understands our clients to translate their needs into easy to use and visually appealing websites that get results.
                         </p>
-                    </section>                         
+                    </section>       
+                    <section id="steve" className="teamMember">
+                        <h1 className="teamName"> Steve Shelton, Sales Rep </h1>
+                        <p className="teamText">
+                            <img src={steve} className="headshot" alt="Steve Shelton"/>
+                            Steve J. Shelton was born in Fayetteville, Tn. He started Huntsville Radio at 16 at WAAY in Huntsville, Alabama. He started working full time in radio after high school. In 1982 Steve joined Semi Conductor/Electro mechanical Rep business. In 1987 Steve started South East Technical Group (STG), he sold the business in 2007. 
+                            Since 2007 Steve has owned and started various businesses, A Golds Gym, A Home Building Business, Charter Aviation company, a Bakery, Eatery Brewery, and Cigar Bar/store biz.
+                            From 2009-2016 Steve served as the managing partner of the Ark-La-Ms Radio Group until they closed in 2016. Since then Steve has helped us grow our business into the Huntsville, Alabama area.
+                        </p>
+                    </section>                  
                 </div>
             </div>
         )
