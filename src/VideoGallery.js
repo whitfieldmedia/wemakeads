@@ -21,6 +21,7 @@ class VideoGallery extends React.Component {
                 </div>
                 <div id="galleryGrid">
                     <iframe title="45 years" className="galleryVid" src="https://player.vimeo.com/video/278025343" allowFullScreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" frameBorder="0"></iframe>
+                    <iframe title="Grenada Dental Associates" className="galleryVid" src="https://player.vimeo.com/video/360892714" allowFullScreen mozAllowFullscreen msAllowFullScreen oAllowFullScreen frameBorder="0"></iframe>
                     <iframe title="Factory Direct Furniture" className="galleryVid" src="https://player.vimeo.com/video/356270517" allowFullScreen mozAllowFullscreen msAllowFullScreen oAllowFullScreen frameBorder="0"></iframe>
                     <iframe title="Sayle" className="galleryVid" src="https://player.vimeo.com/video/263207407" allowFullScreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" frameBorder="0"></iframe>
                     <iframe title="NSMC" className="galleryVid" src="https://player.vimeo.com/video/210287313" allowFullScreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" frameBorder="0"></iframe>

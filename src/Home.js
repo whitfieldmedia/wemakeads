@@ -78,7 +78,7 @@ class Home extends React.Component {
                         </div>
                         <div className="home-what-column">
                             <h3 className="homeProHead"> Video Production </h3>
-                            <p className="home-what-par"> All videos are shot and edited by us. We develop relationship with our clients to find out exactly what they need and produce great commercials and videos for them.  </p>
+                            <p className="home-what-par"> All videos are shot and edited by us. We develop relationships with our clients. We find out exactly what they need and produce great video content.  </p>
                         </div>
                     </Link>
                     <Link className="home-what" to="/digital-marketing">
@@ -89,7 +89,7 @@ class Home extends React.Component {
                         </div>  
                         <div className="home-what-column">
                             <h3 className="homeProHead"> Advertising & Digital Marketing </h3>
-                            <p className="home-what-par"> We help you connect a brand with people. We produce creative and eye catching products that differentiates you from the competition.  </p>
+                            <p className="home-what-par"> We help you connect a brand with people. We produce creative and eye catching products that separates you from the competition.  </p>
                         </div>
                     </Link>
                     <Link className="home-what" to="/graphic-design">
@@ -111,7 +111,7 @@ class Home extends React.Component {
                         </div>
                         <div className="home-what-column">
                             <h3 className="homeProHead"> Billboards </h3>
-                            <p className="home-what-par"> Billboards are a great way to get your brand seen by a lot of people. Wether you're starting out and need brand recognition or want to promote a special we can help!  </p>
+                            <p className="home-what-par"> Billboards are a great way to get your brand seen by a lot of people. Whether you're starting out and need brand recognition or want to promote a special we can help!  </p>
                         </div> 
                     </Link>
                     <Link className="home-what" to="/web-development">

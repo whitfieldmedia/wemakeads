@@ -48,7 +48,7 @@ class Blog extends React.Component {
                             <img className="blogPostImg" id="smile" src={nsmcSmile} alt="Smile Award"/>
                             <img className="blogPostImg" id="smile1" src={nsmcSmile2} alt="Smile"/>
                         </div>
-                        <p className="blogText">Congratulations to North Sunflower Medical Center for winning the 2017 Maggie Award for Excellence in Photography/Illustration! We captured this moment during a fun shoot! <br/><br/> Take me to Rulevile!!!</p>
+                        <p className="blogText">Congratulations to North Sunflower Medical Center for winning the 2017 Maggie Award for Excellence in Photography/Illustration! We captured this moment during a fun shoot! <br/><br/> Take me to Ruleville!!!</p>
                         <div className="dateAndName">
                             <div className="headAndName">
                                 <img className="blogHead" src={blogPost} alt="social head"/>
