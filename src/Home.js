@@ -126,6 +126,10 @@ class Home extends React.Component {
                         </div> 
                     </Link>
                 </div>
+                <div className="home-video-holder">
+                    <h2 className="home-video-header"> Need a Website? </h2>
+                    <iframe title="We Make Ads - Website Video" className="home-video" src="https://player.vimeo.com/video/368840295" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+                </div>
                 <div id="client-holder">
                     <h2 className="homeClientHeader"> Our Clients.  </h2>
                     <div className="client-wrapper">

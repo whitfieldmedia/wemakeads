@@ -497,6 +497,33 @@
   height: auto;
 }
 
+.home-video-holder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  margin: auto;
+}
+
+.home-video-header {
+  font-family: "Lora", serif;
+  font-size: 35px;
+  color: #3a3a3a;
+  font-weight: 600;
+  margin: 0 0 25px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.home-video {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
 @media (max-width: 1000px) {
   .home-what {
     width: 45%;
@@ -545,6 +572,16 @@
 
   .homeProHead {
     text-align: left;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .home-video-holder {
+    padding-bottom: 0;
+  }
+
+  .home-video-header {
+    font-size: 30px;
+    margin: 0 0 -10px 0;
   }
 }
 @media only screen and (max-width: 350px) {
