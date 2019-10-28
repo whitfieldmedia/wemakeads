@@ -18,7 +18,6 @@
 .home-top-container {
     width: 100%;
     height: 80vh;
-    // background: $black;
     background: url(../../images/whitfieldCover.jpg);
     background-color: #999999;
     background-repeat: no-repeat;
@@ -269,7 +268,7 @@
 }
 #homeProDesignLogo {
     height: 50px;
-    width: 50px;
+    width: 50px; 
     background-size: 50px 50px;
     background-repeat: no-repeat;
     background-position: center;
@@ -510,7 +509,30 @@
     .home-what-column {
         margin: 5px;
     }
+    .home-brand-header {
+        font-size: 30px;
+        width: 90%;
+    }
+}
 
+@media only screen and (max-width: 850px) {
+    .home-top-container {
+        background-size: 120vw auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .home-what-header {
+        font-size: 30px;
+        width: 90%;
+    }
+    .home-top-header {
+        font-size: 40px;
+    }
+    .home-brand-header {
+        font-size: 25px;
+        width: 95%;
+    }
 }
 
 @media only screen and (max-width: 725px) {
@@ -520,31 +542,90 @@
 }
 
 @media only screen and (max-width: 650px) {
+    .home-top-container {
+        background-size: 140vw auto;
+        height: 70vh;
+    }
     #homeWhat {
         flex-flow: column;
-    }
-    .home-what {
-        width: 80%;
-        justify-content: flex-start;
-        justify-items: flex-start;
-        align-content: flex-start;
-        align-items: flex-start;
     }
     .home-what-column {
         max-width: 100%;
     }
-    .homeProHead {
-        text-align: left;
+    #homeProVidLogo {
+        height: 40px;
+        width: 40px;
+        background-size: 40px 40px;
     }
-
-}
-@media only screen and (max-width: 450px) {
-    .home-video-holder {
-        padding-bottom: 0;
+    #homeProAdLogo {
+        height: 40px;
+        width: 40px;
+        background-size: 40px 40px;
+    }
+    #homeProDesignLogo {
+        height: 40px;
+        width: 40px;
+        background-size: 40px 40px;
+    }
+    #homeProBillboardLogo {
+        height: 40px;
+        width: 40px;
+        background-size: 40px 40px;
+    }
+    #homeProLaptopLogo {
+        height: 40px;
+        width: 40px;
+        background-size: 40px 40px;
+    }
+    #homeProSocialLogo {
+        height: 40px;
+        width: 40px;
+        background-size: 40px 40px;
+    }
+    .homeLogoHolder {
+        height: 55px;
+        width: 55px;
+        border: 1 px solid #67BFEC;
+    }
+    .homeProHead {
+        font-size: 23px;
+        text-align: center;
+    }
+    .home-what-par {
+        font-size: 18px;
+    }
+    .home-what {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .home-what-column {
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+        margin: 0;
     }
     .home-video-header {
-        font-size: 30px;
-        margin: 0 0 -10px 0;
+        font-size: 25px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .home-what-header {
+        font-size: 25px;
+    }
+    .home-top-header {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .home-top-container {
+        height: 60vh;
+    }
+    .home-video-holder {
+        padding-bottom: 0;
     }
 }
 
@@ -556,6 +637,12 @@
             padding: 0;
             margin: 0;
         }
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .home-brand-header {
+        font-size: 22px;
     }
 }
 
@@ -571,122 +658,4 @@
 #carousel-page {
     position: relative;
     padding-bottom: 0px;
-}
-
-@media only screen and (max-width: 875px) {
-    #homeGrid {
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .homeProducts {
-        margin-bottom: 30px;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .proContainer {
-        display: flex;
-        flex-direction: row;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-    }
-
-    .homeBackgroundImg {
-        width: 250px;
-        height: 250px;
-        position: relative;
-        display: block;
-    }
-
-    .productsBackground {
-        width: 250px;
-        display: block;
-    }
-    .HomeParagraph {
-        height: 245px;
-        padding-top: 5px;
-        width: 220px;
-        padding-left: 30px;
-    }
-    .subHeader {
-        width: 100%;
-    }
-
-    #background-video {
-        display: flex;
-        flex-flow: row wrap;
-    }
-    #video1 {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #video2 {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #video3 {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #video4 {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media (max-width: 575px) {
-    .proContainer {
-        display: flex;
-        flex-direction: column;
-        width: 250px;
-        height: 460px;
-    }
-    .HomeParagraph {
-        height: auto;
-        width: 240px;
-        padding-left: 0;
-        padding-top: 20px;
-        text-align: center;
-    }
-    #adTitle {
-        margin-top: 10px;
-    }
-}
-
-
-@media (max-width: 600px) {
-    .homeLogoSmall {
-        height: 50px;
-        width: 50px;
-        background-size: 40px 40px;
-    }
-    .header {
-        font-size: 50px;
-    }
-}
-
-@media (max-width: 450px) {
-    .homeLogoSmall {
-        height: 40px;
-        width: 40px;
-        background-size: 30px 30px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-}
-
-@media (max-width: 350px) {
-    .homeLogoSmall {
-        margin-left: 2px;
-        margin-right: 2px;
-    }
-    .home-top-header {
-        font-size: 40px;
-    }
-    .home-what-header {
-        font-size: 30px;
-    }
 }

@@ -54,9 +54,12 @@ class Nav extends React.Component {
         return (
             <div>
                 <header className="navbar nav-down" id="navbar">
+
                     <ul className="main-nav" id="js-menu">
                         <li className="nav-link">
-                            <Link className="nav-links" id="home-link" to="/"> Whitfield Media </Link>
+                            <Link className="nav-header" id="home-link" to="/"> 
+                                Whitfield Media    
+                            </Link>
                         </li>
                         <li className="dropdown">
                             <div className="dropbtn" id="dropdown-button" onClick={this.handleDropdown}> WHAT WE DO <i className="fas fa-caret-down"></i>  </div>

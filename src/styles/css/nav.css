@@ -238,12 +238,10 @@
 }
 
 .nav-header {
-  font-family: "Merriweather", serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 25px;
-  padding: 0;
+  padding: 15px 50px 0 0;
   margin: 0;
-  line-height: 35px;
-  padding-top: 20px;
 }
 
 .nav-x {
@@ -273,7 +271,27 @@
   background: #e8e8e8;
 }
 
-@media screen and (min-width: 1000px) {
+@media only screen and (max-width: 550px) {
+  .nav-header {
+    font-size: 22px;
+    padding: 18px 20px 0 0;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .nav-header {
+    font-size: 20px;
+    padding: 18px 10px 0 0;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .nav-header {
+    color: #f5f7f6;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
   .navbar2 {
     display: none;
   }
@@ -381,9 +399,6 @@
     background: #f2f3ee;
     z-index: 101;
   }
-}
-#home-link {
-  font-family: "Merriweather", serif;
 }
 
 /*# sourceMappingURL=nav.css.map */

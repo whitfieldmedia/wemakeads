@@ -76,7 +76,7 @@ class Home extends React.Component {
                     <Link className="home-what" to="/video-production">
                         <div className="home-what-column">
                             <div className="homeLogoHolder">
-                                <div id="homeProVidLogo"></div>
+                                <div className="home-service-logo" id="homeProVidLogo"></div>
                             </div>
                         </div>
                         <div className="home-what-column">

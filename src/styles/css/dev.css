@@ -259,6 +259,16 @@
     flex-flow: row wrap;
   }
 }
+@media only screen and (max-width: 650px) {
+  .web-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .web-icon-text {
+    font-size: 20px;
+  }
+}
 @media (max-width: 450px) {
   .siteContainer {
     background-size: 300px 225px;

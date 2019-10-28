@@ -44,9 +44,6 @@ class GraphicDesign extends React.Component {
                         <div id="designGrid">
                             <div id="socialMedia" className="designColumn">
                                 <div id="socialTitle" className="designTitleHolder">
-                                    <div className="designIconContainer">
-                                        <img src={user} className="designIcon" alt=""/>
-                                    </div>
                                     <h2 className="designSubH">Social Media</h2>
                                 </div>
                                 <div id="socialBlock" className="designBottomBlock">
@@ -57,9 +54,6 @@ class GraphicDesign extends React.Component {
                             </div>
                             <div id="beautPhoto" className="designColumn">
                                 <div id="beautTitle" className="designTitleHolder">
-                                    <div className="designIconContainer">
-                                        <img src={camera} className="designIcon" alt=""/>
-                                    </div>
                                     <h2 id="beautTitle" className="designSubH">Beautiful <br/> Photographs</h2>
                                 </div>
                                 <div id="beautBlock" className="designBottomBlock">
@@ -70,9 +64,6 @@ class GraphicDesign extends React.Component {
                             </div>
                             <div id="fliers" className="designColumn">
                                 <div id="flierTitle" className="designTitleHolder">
-                                    <div className="designIconContainer">
-                                        <img src={file} className="designIcon" alt=""/>
-                                    </div>
                                     <h2 id="headTitle" className="designSubH"> Flyers </h2>
                                 </div>
                                 <div id="headshotBlock" className="designBottomBlock">
@@ -83,9 +74,6 @@ class GraphicDesign extends React.Component {
                             </div>
                             <div id="mags" className="designColumn">
                                 <div id="magTitle" className="designTitleHolder">
-                                    <div className="designIconContainer">
-                                        <img src={newsPaper} className="designIcon" alt=""/>
-                                    </div>
                                     <h2 id="magTitle" className="designSubH">Magazines & <br/> Newspapers</h2>
                                 </div>
                                 <div id="magBlock" className="designBottomBlock">
