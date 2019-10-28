@@ -249,10 +249,8 @@
   width: 50%;
   display: flex;
   flex-flow: row;
-  justify-content: flex-start;
-  justify-items: flex-start;
-  align-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
 }
 
