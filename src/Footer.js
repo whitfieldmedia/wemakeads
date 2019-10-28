@@ -1,5 +1,5 @@
 import React from 'react';
-import fb from './images/facebook-logo.svg';
+import fb from './images/f_logo_RGB-White_58.png';
 import email from './images/mail-black-envelope-symbol.svg';
 import './styles/css/footer.css';
 
