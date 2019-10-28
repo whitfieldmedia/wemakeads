@@ -26,7 +26,7 @@ import winonaTractor from './images/winonaTractor2.png';
 import xPlore from './images/xPlore.svg';
 import paps from './images/papsLogo.jpg';
 import bryantFarms from './images/bryantFarmsLogo.png';
-import holmes from './images/holcomb-clinic-logo.svg';
+import holmes from './images/holmesLogo.png';
 import taylorAuction from './images/taylor-auction-logo.png';
 import tutwilerClinic from './images/tutwiler-clinic-logo.png';
 import coffeeville from './images/coffeeville_logo.png';
@@ -41,6 +41,9 @@ import purpleCup from './images/purplecup-logo-solid.png';
 import straightToAle from './images/straight-to-ale.png';
 import poppy from './images/the-poppy-solid.png';
 import atWood from './images/atwoodLogo.png';
+// import 'react-responsive-carousel/lib/styles/carousel.min.css';
+// import { Carousel } from 'react-responsive-carousel';
+import InfiniteCarousel from 'react-leaf-carousel';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import './styles/css/home.css';
@@ -132,50 +135,98 @@ class Home extends React.Component {
                 </div>
                 <div id="client-holder">
                     <h2 className="homeClientHeader"> Our Clients.  </h2>
-                    <div className="client-wrapper">
-                        <div className="client-holder"> <img src={paps} alt="Paps"/> </div>
-                        <div className="client-holder"> <img src={bryantFarms} alt="Bryant Farms Beef"/> </div>
-                        <div className="client-holder"> <img src={holmes} alt="Holmes Community College"/> </div>
-                        <div className="client-holder"> <img src={taylorAuction} alt="Taylor Auction"/> </div>
-                        <div className="client-holder"> <img src={tutwilerClinic} alt="Tutwiler Clinic"/> </div>
-                        <div className="client-holder"> <img src={coffeeville} alt="Coffeeville School District"/> </div>
-                        <div className="client-holder"> <img src={ac} alt="AC's"/> </div>
-                        <div className="client-holder"> <img src={ark} alt="Ark La Tex"/> </div>
-                        <div className="client-holder"> <img src={badboys} alt="Grenada Bad Boys"/> </div>
-                        <div className="client-holder"> <img src={bigMuddy} alt="Big Muddy"/> </div>
-                        <div className="client-holder"> <img src={CharlestonsClinic2} alt="Charlestons Clinic"/> </div>
-                        <div className="client-holder"> <img src={csb} alt="Cleveland State Bank"/> </div>
-                        <div className="client-holder"> <img src={cookTractor} alt="Cook Tractor"/> </div>
-                        <div className="client-holder"> <img src={dh} alt="DH4"/> </div>
-                        <div className="client-holder"> <img src={eatFresh} alt="Eat Fresh"/> </div>
-                        <div className="client-holder"> <img src={fdf} alt="Factory Direct Furniture"/> </div>
-                        <div className="client-holder"> <img src={dental} alt="Grenada Dental"/> </div>
-                        <div className="client-holder"> <img src={hampton} alt="Hampton Inn"/> </div>
-                        <div className="client-holder"> <img src={hc} alt="Holcomb Clinic"/> </div>
-                        <div className="client-holder"> <img src={kirkAuto} alt="Kirk Auto Company"/> </div>
-                        <div className="client-holder"> <img src={ml} alt="Magnola Lighting"/> </div>
-                        <div className="client-holder"> <img src={modine} alt="Modine"/> </div>
-                        <div className="client-holder"> <img src={nsmc} alt="North Sunflower Medical Center"/> </div>
-                        <div className="client-holder"> <img src={sayle} alt="Sayle Oil Company"/> </div>
-                        <div className="client-holder"> <img src={spencer} alt="Spencers Dairy Kreamer"/> </div>
-                        <div className="client-holder"> <img src={tgh} alt="TGH"/> </div>
-                        <div className="client-holder"> <img src={tree} alt="Caldwell Tree Services"/> </div>
-                        <div className="client-holder"> <img src={truckOutfitter} alt="DK Truck Outfitters"/> </div>
-                        <div className="client-holder"> <img src={wngn} alt="WeeNeeGeeNee"/> </div>
-                        <div className="client-holder"> <img src={winonaTractor} alt="Winona Tractor"/> </div>
-                        <div className="client-holder"> <img src={xPlore} alt="xPlore"/> </div>
-                        <div className="client-holder"> <img src={Bar805} alt="The Bar at 805"/> </div>
-                        <div className="client-holder"> <img src={brokenEgg} alt="Another Broken Egg"/> </div>
-                        <div className="client-holder"> <img src={boot} alt="The boot pizzeria"/> </div>
-                        <div className="client-holder"> <img src={botanicalGardens} alt="Botanical Gardens"/> </div>
-                        <div className="client-holder"> <img src={brickhouse} alt="Brickhouse Sports Cafe"/> </div>
-                        <div className="client-holder"> <img src={bullet} alt="Bullet and Barrel"/> </div>
-                        <div className="client-holder"> <img src={otbx} alt="Otbx"/> </div>
-                        <div className="client-holder"> <img src={purpleCup} alt="Secret Art Trail Huntsville, Al"/> </div>
-                        <div className="client-holder"> <img src={straightToAle} alt="Straight To Ale"/> </div>
-                        <div className="client-holder"> <img src={poppy} alt="The Poppy"/> </div>
-                        <div className="client-holder"> <img src={atWood} alt="Atwood Chevrolet"/> </div>
-                    </div>
+                    <InfiniteCarousel
+                        breakpoints={[
+                            {
+                                breakpoint: 1000,
+                                settings: {
+                                    slidesToShow: 6,
+                                    slidesToScroll: 1,
+                                    autoCycle: true,
+                                    cycleInterval: 2000,
+                                },
+                            },
+                            {
+                                breakpoint: 800,
+                                settings: {
+                                    slidesToShow: 5,
+                                    slidesToScroll: 1,
+                                    autoCycle: true,
+                                    cycleInterval: 2000,
+                                },
+                            },
+                            {
+                                breakpoint: 600,
+                                settings: {
+                                    slidesToShow: 4,
+                                    slidesToScroll: 1,
+                                    autoCycle: true,
+                                    cycleInterval: 2000,
+                                },
+                            },
+                            {
+                                breakpoint: 400,
+                                settings: {
+                                    slidesToShow: 3,
+                                    slidesToScroll: 1,
+                                    autoCycle: true,
+                                    cycleInterval: 2000,
+                                }
+                            }
+                        ]}
+                        dots={false}
+                        showSides={false}
+                        showArrows={true}
+                        slidesToScroll={1}
+                        slidesToShow={7}
+                        scrollOnDevice={true}
+                        responsive={true}
+                        autoCycle={true}
+                        cycleInterval={2000}
+                    >
+                        <img className="client-logo" src={paps} alt="Paps"/>
+                        <img className="client-logo" src={bryantFarms} alt="Bryant Farms Beef"/>
+                        <img className="client-logo" src={holmes} alt="holmes community college"/>
+                        <img className="client-logo" src={taylorAuction} alt="Taylor Auction"/>
+                        <img className="client-logo" src={tutwilerClinic} alt="Tutwiler Clinic"/>
+                        <img className="client-logo" src={coffeeville} alt="Coffeeville School District"/>
+                        <img className="client-logo" src={ac} alt="AC's"/>
+                        <img className="client-logo" src={ark} alt="Ark La Tex"/>
+                        <img className="client-logo" src={badboys} alt="Grenada Bad Boys"/>
+                        <img className="client-logo" src={bigMuddy} alt="Big Muddy"/>
+                        <img className="client-logo" src={CharlestonsClinic2} alt="Charlestons Clinic"/>
+                        <img className="client-logo" src={csb} alt="Cleveland State Bank"/>
+                        <img className="client-logo" src={cookTractor} alt="Cook Tractor"/>
+                        <img className="client-logo" src={dh} alt="DH4"/>
+                        <img className="client-logo" src={eatFresh} alt="Eat Fresh"/>
+                        <img className="client-logo" src={fdf} alt="Factory Direct Furniture"/>
+                        <img className="client-logo" src={dental} alt="Grenada Dental"/>
+                        <img className="client-logo" src={hampton} alt="Hampton Inn"/>
+                        <img className="client-logo" src={hc} alt="Holcomb Clinic"/>
+                        <img className="client-logo" src={kirkAuto} alt="Kirk Auto Company"/>
+                        <img className="client-logo" src={ml} alt="Magnola Lighting"/>
+                        <img className="client-logo" src={modine} alt="Modine"/>
+                        <img className="client-logo" src={nsmc} alt="North Sunflower Medical Center"/>
+                        <img className="client-logo" src={sayle} alt="Sayle Oil Company"/>
+                        <img className="client-logo" src={spencer} alt="Spencers Dairy Kreamer"/>
+                        <img className="client-logo" src={tgh} alt="TGH"/>
+                        <img className="client-logo" src={tree} alt="Caldwell Tree Services"/>
+                        <img className="client-logo" src={truckOutfitter} alt="DK Truck Outfitters"/>
+                        <img className="client-logo" src={wngn} alt="WeeNeeGeeNee"/>
+                        <img className="client-logo" src={winonaTractor} alt="Winona Tractor"/>
+                        <img className="client-logo" src={xPlore} alt="xPlore"/>
+                        <img className="client-logo" src={Bar805} alt="The Bar at 805"/>
+                        <img className="client-logo" src={brokenEgg} alt="Another Broken Egg"/>
+                        <img className="client-logo" src={boot} alt="The boot pizzeria"/>
+                        <img className="client-logo" src={botanicalGardens} alt="Botanical Gardens"/>
+                        <img className="client-logo" src={brickhouse} alt="Brickhouse Sports Cafe"/>
+                        <img className="client-logo" src={bullet} alt="Bullet and Barrel"/>
+                        <img className="client-logo" src={otbx} alt="Otbx"/>
+                        <img className="client-logo" src={purpleCup} alt="Secret Art Trail Huntsville, Al"/>
+                        <img className="client-logo" src={straightToAle} alt="Straight To Ale"/>
+                        <img className="client-logo" src={poppy} alt="The Poppy"/>
+                        <img className="client-logo" src={atWood} alt="Atwood Chevrolet"/>
+                    </InfiniteCarousel>
                 </div>
             </div>
         )

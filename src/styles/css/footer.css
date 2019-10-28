@@ -1,5 +1,48 @@
 #footerContainer {
   display: flex;
+  flex-flow: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  background: #0d0d0d;
+  height: auto;
+  min-height: 80px;
+  width: 100vw;
+  bottom: 0;
+  position: relative;
+  padding: 15px 0;
+}
+
+#facebookFooter {
+  height: 30px;
+  width: 30px;
+  margin: 0 15px;
+  position: relative;
+  padding: 0;
+}
+
+#mailFooter {
+  height: 30px;
+  width: 30px;
+  margin: 0 15px;
+  position: relative;
+  padding: 0;
+}
+
+.footer-text {
+  text-decoration: none;
+  color: #f5f7f6;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+.footer-row {
+  display: flex;
   flex-flow: row;
   margin-left: auto;
   margin-right: auto;
@@ -10,24 +53,18 @@
   align-content: center;
   align-items: center;
   background: #0d0d0d;
-  height: 80px;
+  height: auto;
   width: 100vw;
-  bottom: 0;
   position: relative;
+  padding: 8px 0;
 }
 
-#facebookFooter {
-  height: 40px;
-  width: 40px;
-  margin: 0 35px;
-  position: relative;
-}
-
-#mailFooter {
-  height: 40px;
-  width: 40px;
-  margin: 0 35px;
-  position: relative;
+@media only screen and (max-width: 400px) {
+  .footer-text {
+    max-width: 250px;
+    width: auto;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=footer.css.map */

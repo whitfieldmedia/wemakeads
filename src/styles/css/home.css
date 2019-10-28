@@ -484,17 +484,18 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  justify-items: space-evenly;
+  align-items: center;
   margin: 0 auto;
+  background: #f5f7f6;
 }
 
-.client-holder {
-  padding: 20px;
-}
-.client-holder img {
-  width: 125px;
-  max-height: 100px;
+.client-logo {
+  display: block;
+  width: auto;
   height: auto;
+  max-width: 150px;
+  max-height: 100px;
+  margin: 0 auto;
 }
 
 .home-video-holder {
@@ -547,11 +548,6 @@
   .client-holder {
     padding: 10px;
   }
-  .client-holder img {
-    width: 150px;
-    max-height: 100px;
-    height: auto;
-  }
 }
 @media only screen and (max-width: 650px) {
   #homeWhat {
@@ -584,10 +580,12 @@
     margin: 0 0 -10px 0;
   }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
   .client-holder img {
-    width: 125px;
-    max-height: 90px;
+    max-width: 75px;
+    max-height: 75px;
+    padding: 0;
+    margin: 0;
   }
 }
 #clients {
