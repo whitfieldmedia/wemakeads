@@ -116,7 +116,6 @@
 .dropdown:hover .dropdown-content {
     display: flex;
     cursor: pointer;
-    background: $white;
 }
 
 .main-nav {
@@ -317,7 +316,7 @@
         justify-items: center;
         align-content: center;
         align-items: center;
-        background: $darkBlack;
+        background: $grey3;
     }
     .main-nav {
         display: flex;
@@ -349,33 +348,39 @@
     .dropbtn {
         border: none;
         outline: none;
-        background: none;
         color: $white;
         font-size: 18px;
         font-family: $sans;
         margin: 0;
+        padding: 0;
         font-weight: $medium;
         letter-spacing: 1px;
+        background: $grey3;
     }
     .dropdown-content {
         display: none; 
         position: absolute;
         width: 100%;
-        padding-top: 65px;
+        padding-top: 60px;
         z-index: 10;
         background: none;
+        color: $white;
     }
 
     .dropdown-link {
         float: none;
-        color: $black;
+        color: $white;
         position: relative;
         text-decoration: none;
-        background: $white;
+        background: $grey3;
         height: 100%;
         display: block;
         text-align: center;
         width: 100%;
+    }
+    .dropdown-link:hover {
+        color: $grey;
+        color: $white;
     }
     .dropdown:hover {
         cursor: pointer;
@@ -385,9 +390,15 @@
         flex-flow: column;
         cursor: pointer;
     }
-    .dropdown:hover .dropbtn {
-        color: $black;
-        background: $offWhite;
+    .dropbtn:hover {
+        color: $white;
+        background: $grey;
         z-index: 101;
+    }
+    .dropdown:hover {
+        background: $grey;
+        .dropbtn {
+            background: $grey;
+        }
     }
 }

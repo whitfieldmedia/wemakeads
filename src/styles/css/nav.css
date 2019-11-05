@@ -114,7 +114,6 @@
 .dropdown:hover .dropdown-content {
   display: flex;
   cursor: pointer;
-  background: #f5f7f6;
 }
 
 .main-nav {
@@ -320,7 +319,7 @@
     justify-items: center;
     align-content: center;
     align-items: center;
-    background: #0d0d0d;
+    background: #2e2e2e;
   }
 
   .main-nav {
@@ -358,34 +357,41 @@
   .dropbtn {
     border: none;
     outline: none;
-    background: none;
     color: #f5f7f6;
     font-size: 18px;
     font-family: "Ubuntu", sans-serif;
     margin: 0;
+    padding: 0;
     font-weight: 500;
     letter-spacing: 1px;
+    background: #2e2e2e;
   }
 
   .dropdown-content {
     display: none;
     position: absolute;
     width: 100%;
-    padding-top: 65px;
+    padding-top: 60px;
     z-index: 10;
     background: none;
+    color: #f5f7f6;
   }
 
   .dropdown-link {
     float: none;
-    color: #1A1A1C;
+    color: #f5f7f6;
     position: relative;
     text-decoration: none;
-    background: #f5f7f6;
+    background: #2e2e2e;
     height: 100%;
     display: block;
     text-align: center;
     width: 100%;
+  }
+
+  .dropdown-link:hover {
+    color: #414141;
+    color: #f5f7f6;
   }
 
   .dropdown:hover {
@@ -398,10 +404,17 @@
     cursor: pointer;
   }
 
-  .dropdown:hover .dropbtn {
-    color: #1A1A1C;
-    background: #f2f3ee;
+  .dropbtn:hover {
+    color: #f5f7f6;
+    background: #414141;
     z-index: 101;
+  }
+
+  .dropdown:hover {
+    background: #414141;
+  }
+  .dropdown:hover .dropbtn {
+    background: #414141;
   }
 }
 
