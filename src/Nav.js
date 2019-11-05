@@ -54,7 +54,6 @@ class Nav extends React.Component {
         return (
             <div>
                 <header className="navbar nav-down" id="navbar">
-
                     <ul className="main-nav" id="js-menu">
                         <li className="nav-link">
                             <Link className="nav-header" id="home-link" to="/"> 
@@ -89,19 +88,16 @@ class Nav extends React.Component {
                     </ul>
                 </header>
                 <header className="navbar2 nav-down2" style={{ transform: `translate(0, ${this.state.slide})`, transition: 'transform 200ms linear'}}>
-                    <span className={this.state.class2} onClick={this.handleClick}> {!this.state.isClicked ? <i id="open" className="fas fa-bars"></i>: null }  </span>
+                    <span className={this.state.class2} onClick={this.handleClick}> {!this.state.isClicked ? <i id="open" className="fas fa-bars"></i> : <i id="open" onClick={this.handleClose} className="fas fa-times"></i> }  </span>
                     <Link className="logo-holder2" to="/" onClick={this.handleClose}>
                         <h1 className="nav-header"> Whitfield Media </h1>
                     </Link>
                     <ul className={this.state.class}>
-                        <li onClick={this.handleClose}>
-                            <p className="nav-x"> X </p>
-                        </li>
                         <li className="nav-link" onClick={this.handleClose}>
                             <Link onClick={this.handleClose} className="nav-links" to="/"> HOME </Link>
                         </li>
-                        <li className="drowdown">
-                            <div className="dropbtn" onClick={this.handleDropdown}> WHAT WE DO <i className="fas fa-caret-down"></i> </div>
+                        <li className="dropdown">
+                            <div className="dropbtn nav-links" onClick={this.handleDropdown}> WHAT WE DO {(this.state.dropdown === 'dropdown-open') ? <i class="fas fa-times"></i> : <i className="fas fa-caret-down"></i> } </div>
                             <div className={this.state.dropdown}>
                                 <Link onClick={this.handleClose} className="dropdown-link" id="marketing-link" to="/digital-marketing"> DIGITAL MARKETING </Link>
                                 <Link onClick={this.handleClose} className="dropdown-link" id="design-link" to="/graphic-design"> GRAPHIC DESIGN </Link>

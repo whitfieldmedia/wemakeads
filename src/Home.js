@@ -41,8 +41,6 @@ import purpleCup from './images/purplecup-logo-solid.png';
 import straightToAle from './images/straight-to-ale.png';
 import poppy from './images/the-poppy-solid.png';
 import atWood from './images/atwoodLogo.png';
-// import 'react-responsive-carousel/lib/styles/carousel.min.css';
-// import { Carousel } from 'react-responsive-carousel';
 import InfiniteCarousel from 'react-leaf-carousel';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
@@ -131,6 +129,12 @@ class Home extends React.Component {
                 </div>
                 <div className="home-video-holder">
                     <h2 className="home-video-header"> Need a Website? </h2>
+                    <div className="home-cta-container">
+                        <Link to="/web-development" className="home-cta"> 
+                            Learn More 
+                            <i className="fas fa-chevron-right"></i>    
+                        </Link>
+                    </div>
                     <iframe title="We Make Ads - Website Video" className="home-video" src="https://player.vimeo.com/video/368840295" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
                 </div>
                 <div id="client-holder">

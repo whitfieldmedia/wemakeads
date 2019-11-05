@@ -359,7 +359,7 @@
     text-align: left;
     font-size: 20px; 
     font-weight: 300;
-    color: $dark-grey;
+    color: $grey2;
     font-family: $sans;
 }
 
@@ -481,9 +481,9 @@
 .home-video-header {
     font-family: $serif;
     font-size: 35px;
-    color: $dark-grey;
+    color: $grey2;
     font-weight: 600;
-    margin: 0 0 25px 0;
+    margin: 0;
     padding: 0;
     text-align: center;
 }
@@ -610,6 +610,30 @@
         margin: 0;
     }
 }
+
+.home-cta-container {
+    margin: 10px auto 20px auto;
+    padding: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+
+.home-cta {
+    font-family: $sans;
+    font-size: 25px;
+    color: $blue;
+    text-align: center;
+    text-decoration: none;
+    .fas {
+        padding-left: 8px;
+        font-size: 22px;
+    }
+}
+
 
 @media only screen and (max-width: 575px) {
     .home-what-header {
