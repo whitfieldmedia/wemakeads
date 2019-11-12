@@ -1,9 +1,5 @@
 import React from 'react';
 import designLogo from './images/graphic-design.svg';
-import user from './images/team.svg';
-import file from './images/flyer.svg';
-import camera from './images/camera.svg';
-import newsPaper from './images/newspaper.svg';
 import { Helmet } from 'react-helmet';
 import './styles/css/design.css';
 

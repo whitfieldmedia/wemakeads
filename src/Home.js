@@ -34,7 +34,6 @@ import Bar805 from './images/805Bar.jpg';
 import brokenEgg from './images/another-broken-egg.png';
 import boot from './images/boot.png';
 import botanicalGardens from './images/botanical-gardens.png';
-import brickhouse from './images/brickhouse-sports-cafe-logo.png';
 import bullet from './images/bullet-barrel.png';
 import otbx from './images/otbx-solid.png';
 import purpleCup from './images/purplecup-logo-solid.png';
@@ -223,7 +222,6 @@ class Home extends React.Component {
                         <img className="client-logo" src={brokenEgg} alt="Another Broken Egg"/>
                         <img className="client-logo" src={boot} alt="The boot pizzeria"/>
                         <img className="client-logo" src={botanicalGardens} alt="Botanical Gardens"/>
-                        <img className="client-logo" src={brickhouse} alt="Brickhouse Sports Cafe"/>
                         <img className="client-logo" src={bullet} alt="Bullet and Barrel"/>
                         <img className="client-logo" src={otbx} alt="Otbx"/>
                         <img className="client-logo" src={purpleCup} alt="Secret Art Trail Huntsville, Al"/>
