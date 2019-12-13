@@ -86,7 +86,7 @@ class OurTeam extends React.Component {
                         </p>
                     </section>       
                     <section id="steve" className="teamMember">
-                        <h1 className="teamName"> Steve Shelton, Sales Rep </h1>
+                        <h1 className="teamName"> Steve Shelton, Business Development Partner </h1>
                         <p className="teamText">
                             <img src={steve} className="headshot" alt="Steve Shelton"/>
                             Steve J. Shelton was born in Fayetteville, Tn. He started Huntsville Radio at 16 at WAAY in Huntsville, Alabama. He started working full time in radio after high school. In 1982 Steve joined Semi Conductor/Electro mechanical Rep business. In 1987 Steve started South East Technical Group (STG), he sold the business in 2007. 
