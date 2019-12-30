@@ -1,5 +1,5 @@
 import React from 'react';
-import tgh from './images/thg.png';
+import tgh from './images/thg.jpg';
 import nsmc from './images/northSunflowerMedical.png';
 import blogPost from './images/blogPost.svg';
 import nsmcSmile from './images/NSMCSmiling.png';
@@ -7,9 +7,9 @@ import nsmcSmile2 from './images/nsmcSmiling1.png';
 import modine from './images/modine.png';
 import whitfieldNews from './images/whitfieldNews.png';
 import nsmcBlog from './images/nsmcBlogImg.png';
-import dkLogo from './images/truckOutfitters2.png';
+import dkLogo from './images/truckOutfitters2.jpg';
 import resolute from './images/resoluteLogo.png';
-import apl from './images/advancedProductsLogo.png';
+import apl from './images/advancedProductsLogo.jpg';
 import { Helmet } from 'react-helmet';
 import './styles/css/blog.css';
 

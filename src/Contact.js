@@ -1,5 +1,5 @@
 import React from 'react';
-import map from './images/map.png';
+import map from './images/map.jpg';
 import { Helmet } from 'react-helmet';
 import './styles/css/contact.css';
 

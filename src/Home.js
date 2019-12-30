@@ -1,45 +1,86 @@
 import React from 'react';
-import ac from './images/acs.svg';
+import ac from './images/acs.jpg';
+import acW from './images/webp/acs.webp';
 import ark from './images/ark-la-tex.svg';
+import arkW from './images/webp/ark-la-tex.webp';
 import badboys from './images/grenada-bad-boys.svg';
-import bigMuddy from './images/big-muddy-logo.svg';
+import badboysW from './images/webp/grenada-bad-boys.webp';
+import bigMuddy from './images/big-muddy-logo.jpg';
+import bigMuddyW from './images/webp/big-muddy-logo.webp';
 import CharlestonsClinic2 from './images/charleston-clinic.png';
-import csb from './images/csblogo.png';
+import CharlestonsClinicW from './images/webp/charleston-clinic.webp';
+import csb from './images/csblogo.jpg';
+import csbW from './images/webp/csblogo.webp';
 import cookTractor from './images/cook-tractor.svg';
-import dh from './images/dh4.svg';
-import eatFresh from './images/buon-cibo-logo.svg';
-import fdf from './images/factory-direct-logo.png';
+import cookTractorW from './images/webp/cook-tractor.webp';
+import dh from './images/dh4.jpg';
+import dhW from './images/webp/dh4.webp';
+import eatFresh from './images/buon-cibo-logo.jpg';
+import eatFreshW from './images/webp/buon-cibo-logo.webp';
+import fdf from './images/factory-direct-logo.jpg';
+import fdfW from './images/webp/factory-direct-logo.webp';
 import dental from './images/grenadaDentalLogo.jpg';
+import dentalW from './images/webp/grenadaDentalLogo.webp';
 import hampton from './images/hampton-inn-logo.svg'
-import hc from './images/holcomb-clinic-logo.svg';
-import kirkAuto from './images/kirk-auto-logo.svg';
+import hamptonW from './images/webp/hampton-inn-logo.webp';
+import hc from './images/holcomb-clinic-logo.jpg';
+import hcW from './images/webp/holcomb-clinic-logo.webp';
+import kirkAuto from './images/kirk-auto-logo.jpg';
+import kirkAutoW from './images/webp/kirk-auto-logo.webp';
 import ml from './images/magnolia-lighting-logo.svg';
+import mlW from './images/webp/magnolia-lighting-logo.webp';
 import modine from './images/modine.jpeg';
+import modineW from './images/webp/modine.webp';
 import nsmc from './images/nsunflower-logo.svg';
-import sayle from './images/sayle-logo.png';
+import nsmcW from './images/webp/nsunflower-logo.webp';
+import sayle from './images/sayle-logo.jpg';
+import sayleW from './images/webp/sayle-logo.webp';
 import spencer from './images/spencers2.png';
-import tgh from './images/tghlogo.png';
-import tree from './images/caldwell-logo.svg';
-import truckOutfitter from './images/truckOutfitters2.png';
-import wngn from './images/weenee-logo.svg';
+import spencerW from './images/webp/spencers2.webp';
+import tgh from './images/thg.jpg';
+import tghW from './images/webp/tghlogo.webp';
+import tree from './images/caldwell-logo.jpg';
+import treeW from './images/webp/caldwell-logo.webp';
+import truckOutfitter from './images/truckOutfitters2.jpg';
+import truckOutfitterW from './images/webp/truckOutfitters2.webp';
+import wngn from './images/weenee-logo.jpg';
+import wngnW from './images/webp/weenee-logo.webp'
 import winonaTractor from './images/winonaTractor2.png';
+import winonaTractorW from './images/webp/winonaTractor2.webp';
 import xPlore from './images/xPlore.svg';
+import xPloreW from './images/webp/xPlore.webp';
 import paps from './images/papsLogo.jpg';
-import bryantFarms from './images/bryantFarmsLogo.png';
-import holmes from './images/holmesLogo.png';
-import taylorAuction from './images/taylor-auction-logo.png';
-import tutwilerClinic from './images/tutwiler-clinic-logo.png';
-import coffeeville from './images/coffeeville_logo.png';
+import papsW from './images/webp/papsLogo.webp';
+import bryantFarms from './images/bryantFarmsLogo.jpg';
+import bryantFarmsW from './images/webp/bryantFarmsLogo.webp';
+import holmes from './images/holmesLogo.jpg';
+import holmesW from './images/webp/holmesLogo.webp';
+import taylorAuction from './images/taylor-auction-logo.jpg';
+import taylorAuctionW from './images/webp/taylor-auction-logo.webp';
+import tutwilerClinic from './images/tutwiler-clinic-logo.jpg';
+import tutwilerClinicW from './images/webp/tutwiler-clinic-logo.webp';
+import coffeeville from './images/coffeeville_logo.jpg';
+import coffeevilleW from './images/webp/coffeeville_logo.webp';
 import Bar805 from './images/805Bar.jpg';
-import brokenEgg from './images/another-broken-egg.png';
-import boot from './images/boot.png';
-import botanicalGardens from './images/botanical-gardens.png';
-import bullet from './images/bullet-barrel.png';
-import otbx from './images/otbx-solid.png';
-import purpleCup from './images/purplecup-logo-solid.png';
-import straightToAle from './images/straight-to-ale.png';
-import poppy from './images/the-poppy-solid.png';
-import atWood from './images/atwoodLogo.png';
+import Bar805W from './images/webp/805Bar.webp';
+import brokenEgg from './images/another-broken-egg.jpg';
+import brokenEggW from './images/webp/another-broken-egg.webp';
+import boot from './images/boot.jpg';
+import bootW from './images/webp/boot.webp';
+import botanicalGardens from './images/botanical-gardens.jpg';
+import botanicalGardensW from './images/webp/botanical-gardens.webp';
+import bullet from './images/bullet-barrel.jpg';
+import bulletW from './images/webp/bullet-barrel.webp';
+import otbx from './images/otbx-solid.jpg';
+import otbxW from './images/webp/otbx-solid.webp';
+import purpleCup from './images/purplecup-logo-solid.jpg';
+import purpleCupW from './images/webp/purplecup-logo-solid.webp';
+import straightToAle from './images/straight-to-ale.jpg';
+import straightToAleW from './images/webp/straight-to-ale.webp';
+import poppy from './images/the-poppy-solid.jpg';
+import poppyW from './images/webp/the-poppy-solid.webp';
+import atWood from './images/atwoodLogo.jpg';
+import atWoodW from './images/webp/atwoodLogo.webp';
 import InfiniteCarousel from 'react-leaf-carousel';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
@@ -187,47 +228,170 @@ class Home extends React.Component {
                         autoCycle={true}
                         cycleInterval={2000}
                     >
-                        <img className="client-logo" src={paps} alt="Paps"/>
-                        <img className="client-logo" src={bryantFarms} alt="Bryant Farms Beef"/>
-                        <img className="client-logo" src={holmes} alt="holmes community college"/>
-                        <img className="client-logo" src={taylorAuction} alt="Taylor Auction"/>
-                        <img className="client-logo" src={tutwilerClinic} alt="Tutwiler Clinic"/>
-                        <img className="client-logo" src={coffeeville} alt="Coffeeville School District"/>
-                        <img className="client-logo" src={ac} alt="AC's"/>
-                        <img className="client-logo" src={ark} alt="Ark La Tex"/>
-                        <img className="client-logo" src={badboys} alt="Grenada Bad Boys"/>
-                        <img className="client-logo" src={bigMuddy} alt="Big Muddy"/>
-                        <img className="client-logo" src={CharlestonsClinic2} alt="Charlestons Clinic"/>
-                        <img className="client-logo" src={csb} alt="Cleveland State Bank"/>
-                        <img className="client-logo" src={cookTractor} alt="Cook Tractor"/>
-                        <img className="client-logo" src={dh} alt="DH4"/>
-                        <img className="client-logo" src={eatFresh} alt="Eat Fresh"/>
-                        <img className="client-logo" src={fdf} alt="Factory Direct Furniture"/>
-                        <img className="client-logo" src={dental} alt="Grenada Dental"/>
-                        <img className="client-logo" src={hampton} alt="Hampton Inn"/>
-                        <img className="client-logo" src={hc} alt="Holcomb Clinic"/>
-                        <img className="client-logo" src={kirkAuto} alt="Kirk Auto Company"/>
-                        <img className="client-logo" src={ml} alt="Magnola Lighting"/>
-                        <img className="client-logo" src={modine} alt="Modine"/>
-                        <img className="client-logo" src={nsmc} alt="North Sunflower Medical Center"/>
-                        <img className="client-logo" src={sayle} alt="Sayle Oil Company"/>
-                        <img className="client-logo" src={spencer} alt="Spencers Dairy Kreamer"/>
-                        <img className="client-logo" src={tgh} alt="TGH"/>
-                        <img className="client-logo" src={tree} alt="Caldwell Tree Services"/>
-                        <img className="client-logo" src={truckOutfitter} alt="DK Truck Outfitters"/>
-                        <img className="client-logo" src={wngn} alt="WeeNeeGeeNee"/>
-                        <img className="client-logo" src={winonaTractor} alt="Winona Tractor"/>
-                        <img className="client-logo" src={xPlore} alt="xPlore"/>
-                        <img className="client-logo" src={Bar805} alt="The Bar at 805"/>
-                        <img className="client-logo" src={brokenEgg} alt="Another Broken Egg"/>
-                        <img className="client-logo" src={boot} alt="The boot pizzeria"/>
-                        <img className="client-logo" src={botanicalGardens} alt="Botanical Gardens"/>
-                        <img className="client-logo" src={bullet} alt="Bullet and Barrel"/>
-                        <img className="client-logo" src={otbx} alt="Otbx"/>
-                        <img className="client-logo" src={purpleCup} alt="Secret Art Trail Huntsville, Al"/>
-                        <img className="client-logo" src={straightToAle} alt="Straight To Ale"/>
-                        <img className="client-logo" src={poppy} alt="The Poppy"/>
-                        <img className="client-logo" src={atWood} alt="Atwood Chevrolet"/>
+                        <picture>
+                            <source type="image/webp" srcSet={papsW} />
+                            <img className="client-logo" src={paps} alt="Paps"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={bryantFarmsW} />
+                            <img className="client-logo" src={bryantFarms} alt="Bryant Farms Beef"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={holmesW} />
+                            <img className="client-logo" src={holmes} alt="holmes community college"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={taylorAuctionW} />
+                            <img className="client-logo" src={taylorAuction} alt="Taylor Auction"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={tutwilerClinicW} />
+                            <img className="client-logo" src={tutwilerClinic} alt="Tutwiler Clinic"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={coffeevilleW} />
+                            <img className="client-logo" src={coffeeville} alt="Coffeeville School District"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={acW} />
+                            <img className="client-logo" src={ac} alt="AC's"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={arkW} />
+                            <img className="client-logo" src={ark} alt="Ark La Tex"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={badboysW} />
+                            <img className="client-logo" src={badboys} alt="Grenada Bad Boys"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={bigMuddyW} />
+                            <img className="client-logo" src={bigMuddy} alt="Big Muddy"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={CharlestonsClinicW} />
+                            <img className="client-logo" src={CharlestonsClinic2} alt="Charlestons Clinic"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={csbW} />
+                            <img className="client-logo" src={csb} alt="Cleveland State Bank"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={cookTractorW} />
+                            <img className="client-logo" src={cookTractor} alt="Cook Tractor"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={dhW} />
+                            <img className="client-logo" src={dh} alt="DH4"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={eatFreshW} />
+                            <img className="client-logo" src={eatFresh} alt="Eat Fresh"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={fdfW} />
+                            <img className="client-logo" src={fdf} alt="Factory Direct Furniture"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={dentalW} />
+                            <img className="client-logo" src={dental} alt="Grenada Dental"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={hamptonW} />
+                            <img className="client-logo" src={hampton} alt="Hampton Inn"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={hcW} />
+                            <img className="client-logo" src={hc} alt="Holcomb Clinic"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={kirkAutoW} />
+                            <img className="client-logo" src={kirkAuto} alt="Kirk Auto Company"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={mlW} />
+                            <img className="client-logo" src={ml} alt="Magnola Lighting"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={modineW} />
+                            <img className="client-logo" src={modine} alt="Modine"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={nsmcW} />
+                            <img className="client-logo" src={nsmc} alt="North Sunflower Medical Center"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={sayleW} />
+                            <img className="client-logo" src={sayle} alt="Sayle Oil Company"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={spencerW} />
+                            <img className="client-logo" src={spencer} alt="Spencers Dairy Kreamer"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={tghW} />
+                            <img className="client-logo" src={tgh} alt="TGH"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={treeW} />
+                            <img className="client-logo" src={tree} alt="Caldwell Tree Services"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={truckOutfitterW} />
+                            <img className="client-logo" src={truckOutfitter} alt="DK Truck Outfitters"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={wngnW} />
+                            <img className="client-logo" src={wngn} alt="WeeNeeGeeNee"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={winonaTractorW} />
+                            <img className="client-logo" src={winonaTractor} alt="Winona Tractor"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={xPloreW} />
+                            <img className="client-logo" src={xPlore} alt="xPlore"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={Bar805W} />
+                            <img className="client-logo" src={Bar805} alt="The Bar at 805"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={brokenEggW} />
+                            <img className="client-logo" src={brokenEgg} alt="Another Broken Egg"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={bootW} />
+                            <img className="client-logo" src={boot} alt="The boot pizzeria"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={botanicalGardensW} />
+                            <img className="client-logo" src={botanicalGardens} alt="Botanical Gardens"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={bulletW} />
+                            <img className="client-logo" src={bullet} alt="Bullet and Barrel"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={otbxW} />
+                            <img className="client-logo" src={otbx} alt="Otbx"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={purpleCupW} />
+                            <img className="client-logo" src={purpleCup} alt="Secret Art Trail Huntsville, Al"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={straightToAleW} />
+                            <img className="client-logo" src={straightToAle} alt="Straight To Ale"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={poppyW} />
+                            <img className="client-logo" src={poppy} alt="The Poppy"/>
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcSet={atWoodW} />
+                            <img className="client-logo" src={atWood} alt="Atwood Chevrolet"/>
+                        </picture>
                     </InfiniteCarousel>
                 </div>
             </div>

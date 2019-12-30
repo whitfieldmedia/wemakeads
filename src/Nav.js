@@ -97,7 +97,7 @@ class Nav extends React.Component {
                             <Link onClick={this.handleClose} className="nav-links" to="/"> HOME </Link>
                         </li>
                         <li className="dropdown">
-                            <div className="dropbtn nav-links" onClick={this.handleDropdown}> WHAT WE DO {(this.state.dropdown === 'dropdown-open') ? <i class="fas fa-times"></i> : <i className="fas fa-caret-down"></i> } </div>
+                            <div className="dropbtn nav-links" onClick={this.handleDropdown}> WHAT WE DO {(this.state.dropdown === 'dropdown-open') ? <i className="fas fa-times"></i> : <i className="fas fa-caret-down"></i> } </div>
                             <div className={this.state.dropdown}>
                                 <Link onClick={this.handleClose} className="dropdown-link" id="marketing-link" to="/digital-marketing"> DIGITAL MARKETING </Link>
                                 <Link onClick={this.handleClose} className="dropdown-link" id="design-link" to="/graphic-design"> GRAPHIC DESIGN </Link>
