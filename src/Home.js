@@ -38,7 +38,7 @@ import sayleW from './images/webp/sayle-logo.webp';
 import spencer from './images/spencers2.png';
 import spencerW from './images/webp/spencers2.webp';
 import tgh from './images/thg.jpg';
-import tghW from './images/webp/tghlogo.webp';
+import tghW from './images/webp/thg.webp';
 import tree from './images/caldwell-logo.jpg';
 import treeW from './images/webp/caldwell-logo.webp';
 import truckOutfitter from './images/truckOutfitters2.jpg';
